@@ -46,7 +46,7 @@ Nümunə:
 
 Aşağıdakı nümunədə səhifənin dili İngilis dili kimi təyin olunur:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <body>
