@@ -10,7 +10,7 @@ Nümunə:
 HTML elementləri bir birinin daxilində yer ala, yəni biri digərinə daxil ola bilər. Və bütün HTML sənədlərində iç-içə yerləşmiş elementlər vardır. 
 
 Növbəti nümunədə 4 elementdən ibarət bir HTML sənədi göstərilmişdir:
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
@@ -30,7 +30,7 @@ Nümunənin izahı:
 Bəzi HTML elementlərinin sonluq teqi qeyd olunmasa belə brauzer tərəfindən göstərilir: 
 
 Nümunə: 
-```
+```html
 <html>
 <body>
 
