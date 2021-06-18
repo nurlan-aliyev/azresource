@@ -14,14 +14,14 @@ Nümunə:
 Bu başlıqlar `<h1>` – `<h6>` arasında olur. `<h1>` ən vacib başlıq, `<h6>` isə çox vacib olmayan başlıqdır. 
 
 Nümunə:
-
+```html
 <h1>Başlıq 1</h1>
 <h2>Başlıq 2</h2>
 <h3>Başlıq 3</h3>
 <h4>Başlıq 4</h4>
 <h5>Başlıq 5</h5>
 <h6>Başlıq 6</h6>
-
+```
 Axtarış motorları (Google, Bing, Yandex və s.) veb səhifələrin strukturlarını və içindəkilərini indeksləmək (axtarış zamanı lazım olur) üçün, səhifədə mövcud olan başlıqlardan istifadə edir. İstifadəçilər əsasən axtarış zamanı qabaqlarına çıxan başlıqlara uyğun səhifələrə girir. Buna görə də veb səhifədə ən vacib şeylərdən biri də başlıqlardır. 
 
 <ins>*Qeyd:*</ins> HTML başlıqlarından yalnızca sənəd başlıqları üçün istifadə edin. Bu başlıqlardan hər hansısa sözü böyük və qalın göstərmək üçün istifadə eləsəniz axtarış motorları səhifənizi düzgün indeksləyə bilməz. 
