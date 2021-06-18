@@ -44,7 +44,7 @@ Nümunə:
 Şəkili link kimi istifadə etmək üçün, `<img>` elementini `<a>` elementinin daxilində qeyd edin.
 
 Nümunə: 
-```
+```html
 <a href="default.asp">
 <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
 </a>
@@ -70,7 +70,7 @@ Link rənglərini CSS vasitəsilə dəyişmək mümkündür.
 Aşağıdakı nümunədə, klinklənməmiş link yaşıl rəngdə olacaq və altından xətt çəkilməyəcək. Kliklənmiş link çəhrayı olacaq və altından xətt çəkilməyəcək. Və aktiv link sarı olacaq və altından xətt çəkiləcək.  Əlavə olaraq da, mausu linkin üzərinə gətirdikdə onun rəngi qırmızı olacaq və altından xətt çəkiləcək. 
 
 Nümunə:
-```
+```html
 <style>
 a:link {
   color: green; //yaşıl
