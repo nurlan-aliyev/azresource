@@ -8,7 +8,7 @@
 - HTML veb brauzerə, səhifənin içindəkiləri necə nümyaiş etmək lazım olduğunu göstərir 
 
 Sadə bir HTML sənədi:
-```
+```html
 <!DOCTYPE html> 
 <html>
 <head>
