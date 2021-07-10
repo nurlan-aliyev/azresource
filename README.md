@@ -8,4 +8,6 @@
 
 <a href="https://github.com/nurlan-aliyev/azresource/tree/main/SQL" target="_blank">SQL haqqında məlumat üçün klikləyin</a>
 
+<a href="https://github.com/nurlan-aliyev/azresource/tree/main/Node.js" target="_blank">Node.js haqqında məlumat üçün klikləyin</a>
+
 Müəllif: <b><em>Nurlan Aliyev</em></b>
