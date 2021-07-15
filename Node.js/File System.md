@@ -1,44 +1,47 @@
 
-## Node.js as a File Server
+## Node.js Fayl serveri kimi 
+Node.js fayl sistemi modulu kompüter daxilindəki fayllarla işləməyə imkan yaradır.
 
-The Node.js file system module allows you to work with the file system on your computer.
+Fayl Sistem modulunu əlavə etmək üçün  `require()`  metodundan istifadə olunur:
 
-To include the File System module, use the  `require()`  method:
 ```js
 var  fs = require('fs');
 ```
-Common use for the File System module:
 
--   Read files
--   Create files
--   Update files
--   Delete files
--   Rename files
+Fayl Sistemi modulunun ən çox istifadə olunma məqsədləri:
+
+- Faylların oxunulması
+- Faylların yaradılması
+- Faylların yenilənməsi
+- Faylların silinməsi
+- Faylların adlarının dəyişdirilməsi
 
 
-## Read Files
+## Faylların oxunulması
 
-The  `fs.readFile()`  method is used to read files on your computer.
+Bunun üçün `fs.readFile()` metodundan istifadə olunur. 
 
-Assume we have the following HTML file (located in the same folder as Node.js):
+Fərz edək ki, Node.js faylı ilə bir qovluqda yerləşən HTML faylı var:
+`demofayl1.html`
 
-demofile1.html
 ```html
 <html>  
 <body>  
-<h1>My Header</h1>  
-<p>My paragraph.</p>  
+<h1>Başlıq</h1>  
+<p>Paraqraf.</p>  
 </body>  
 </html>
 ```
-Create a Node.js file that reads the HTML file, and return the content:
 
-### Example
+Bu HTML faylını oxuyub daxilindəki məzmunu istifadəçiyə qaytarmaq üçün Node.js faylı aşağıdakı koddan ibarətdir: 
+
+Nümunə:
+
 ```js
 var  http = require('http');  
 var  fs = require('fs');  
 http.createServer(function  (req, res) {  
-fs.readFile('demofile1.html',  function(err, data) {  
+fs.readFile('demofayl1.html',  function(err, data) {  
 res.writeHead(200, {'Content-Type':  'text/html'});  
 res.write(data);  
 return  res.end();  
@@ -46,128 +49,120 @@ return  res.end();
 }).listen(8080);
 ```
 
-Save the code above in a file called "demo_readfile.js", and initiate the file:
+Yuxarıdakı kodu "demo_faylOxucu.js" kimi yaddaşda saxlayıb serveri başladaq: 
 
-Initiate demo_readfile.js:
 ```bash
 C:\Users\_Your Name_>node demo_readfile.js
 ```
-If you have followed the same steps on your computer, you will see the same result as the example:  [http://localhost:8080](http://localhost:8080/)
 
-## Create Files
+## Faylların yaradılması
+Fayl Sistem modulu yeni faylların yaradılması üçün aşağıdakı metodları özündə birləşdirir:
 
-The File System module has methods for creating new files:
+- `fs.appendFile()`
+- `fs.open()`
+- `fs.writeFile()`
 
--   `fs.appendFile()`
--   `fs.open()`
--   `fs.writeFile()`
+`fs.appendFile()`  metodu mötərizə daxilində verilən məzmunu fayla əlavə edir, əgər fayl mövcud deyilsə belə həmin faylı yaradır. 
 
-The  `fs.appendFile()`  method appends specified content to a file. If the file does not exist, the file will be created:
+### Nümunə
 
-### Example
+`appendFile()` metodu ilə fayl yaradılması:
 
-Create a new file using the appendFile() method:
 ```js
 var  fs = require('fs');  
   
-fs.appendFile('mynewfile1.txt',  'Hello content!',  function  (err) {  
+fs.appendFile('yenifayl1.txt',  'Yazılacaq məzmun bura əlavə olunur',  function  (err) {  
 if  (err)  throw  err;  
-console.log('Saved!');  
+console.log('Yaddaşda saxlanıldı!');  
 });
 ```
 
-The  `fs.open()`  method takes a "flag" as the second argument, if the flag is "w" for "writing", the specified file is opened for writing. If the file does not exist, an empty file is created:
+`fs.open()` metodu mötərizə daxilində ikinci arqument qəbul edir və ona uyğun nəticə verir. Əgər ikinci arqument "w" (ingilis dilindən <em>writing</em> sözünün baş hərfidir) kimi qeyd olunarsa açılacaq fayl daxilinə məlumat yazılması üçün istifadə olunacaq. Əgər bu fayl mövcud deyilsə boş fayl yaradılacaq: 
 
-### Example
+### Nümunə:
 
-Create a new, empty file using the open() method:
 ```js
 var  fs = require('fs');  
   
-fs.open('mynewfile2.txt',  'w',  function  (err,  file) {  
+fs.open('yenifayl2.txt',  'w',  function  (err,  file) {  
 if  (err)  throw  err;  
-console.log('Saved!');  
+console.log('Yaddaşda saxlanıldı!');  
 });
 ```
 
-The  `fs.writeFile()`  method replaces the specified file and content if it exists. If the file does not exist, a new file, containing the specified content, will be created:
+`fs.writeFile()` metodu, mötərizə daxilində qeyd olunan fayl mövcuddursa onun məzmununu dəyişir. Əgər fayl mövcud deyilsə verilmiş məzmundan ibarət olunan fayl yaradılacaq: 
 
-### Example
+### Nümunə
 
-Create a new file using the writeFile() method:
 ```js
 var  fs = require('fs');  
   
-fs.writeFile('mynewfile3.txt',  'Hello content!',  function  (err) {  
+fs.writeFile('yenifayl3.txt',  'Qeyd olunacaq məzmun',  function  (err) {  
 if  (err)  throw  err;  
-console.log('Saved!');  
-});
-```
-## Update Files
-
-The File System module has methods for updating files:
-
--   `fs.appendFile()`
--   `fs.writeFile()`
-
-The  `fs.appendFile()`  method appends the specified content at the end of the specified file:
-
-### Example
-
-Append "This is my text." to the end of the file "mynewfile1.txt":
-```js
-var  fs = require('fs');  
-  
-fs.appendFile('mynewfile1.txt',  ' This is my text.',  function  (err) {  
-if  (err)  throw  err;  
-console.log('Updated!');  
+console.log('Yaddaşda saxlanıldı!');  
 });
 ```
 
-The  `fs.writeFile()`  method replaces the specified file and content:
+## Faylların yenilənməsi
+Fayl Sistemi modulu faylların yenilənməsi üçün aşağıdakı metodaları təqdim edir:
 
-### Example
+- `fs.appendFile()`
+- `fs.writeFile()`
 
-Replace the content of the file "mynewfile3.txt":
+`fs.appendFile()` metodu verilmiş məzmunu faylın sonuna əlavə edir:
+
+### Nümunə
+
+"Faylın sonuna əlavə olunacaq məzmun." oxuduğunuz formada "yenifayl1.txt" faylının sonuna əlavə olunacaq:
+
 ```js
 var  fs = require('fs');  
   
-fs.writeFile('mynewfile3.txt',  'This is my text',  function  (err) {  
+fs.appendFile('yenifayl1.txt',  'Faylın sonuna əlavə olunacaq məzmun.',  function  (err) {  
 if  (err)  throw  err;  
-console.log('Replaced!');  
+console.log('Yeniləndi!');  
 });
 ```
-## Delete Files
 
-To delete a file with the File System module, use the  `fs.unlink()`  method.
+`fs.writeFile()` qeyd olunmuş faylı və daxilindəki məzmunu dəyişir:
 
-The  `fs.unlink()`  method deletes the specified file:
+### Nümunə
 
-### Example
-
-Delete "mynewfile2.txt":
 ```js
 var  fs = require('fs');  
   
-fs.unlink('mynewfile2.txt',  function  (err) {  
+fs.writeFile('yenifayl3.txt',  'Yenilənən məzmun',  function  (err) {  
 if  (err)  throw  err;  
-console.log('File deleted!');  
+console.log('Yeniləndi!');  
 });
 ```
-## Rename Files
 
-To rename a file with the File System module, use the  `fs.rename()`  method.
+## Faylların silinməsi
+Hər hansısa faylı silmək üçün `fs.unlink()` metodundan istifadə olunur. 
 
-The  `fs.rename()`  method renames the specified file:
+### Nümunə
 
-### Example
-
-Rename "mynewfile1.txt" to "myrenamedfile.txt":
 ```js
 var  fs = require('fs');  
   
-fs.rename('mynewfile1.txt',  'myrenamedfile.txt',  function  (err) {  
+fs.unlink('yenifayl2.txt',  function  (err) {  
 if  (err)  throw  err;  
-console.log('File Renamed!');  
+console.log('Fayl silindi!');  
+});
+```
+
+## Faylların adlarının dəyişdirilməsi
+
+Faylların adlarının dəyişdirilməsi üçün `fs.rename()` metodu istifadə olunur.
+
+### Nümunə
+"yenifayl1.txt" faylının adının "dəyişdirilmişfayl1.txt":
+
+```js
+var  fs = require('fs');  
+  
+fs.rename('yenifayl1.txt',  'dəyişdirilmişfayl1.txt',  function  (err) {  
+if  (err)  throw  err;  
+console.log('Faylın adı dəyişdirildi!');  
 });
 ```
