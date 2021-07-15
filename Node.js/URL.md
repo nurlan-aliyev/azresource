@@ -76,7 +76,7 @@ return  res.end();
 });  
 }).listen(8080);
 ```
-Serveri başladmaq üçün aşağıdakı sətri yazırıq: 
+Serveri başlatmaq üçün aşağıdakı sətri yazırıq: 
 
 ```bash
 C:\Users\_Your Name_>node demo_fileserver.js
