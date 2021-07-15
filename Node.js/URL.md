@@ -1,28 +1,28 @@
+## URL modulu
+URL modulu veb ünvanını oxunabilən hissəcikıərə parçalayır. 
 
-## The Built-in URL Module
 
-The URL module splits up a web address into readable parts.
+URL modulunu əlavə etmək üçün `require()` metodu istifadə olunur:
 
-To include the URL module, use the  `require()`  method:
 ```js
 var  url = require('url');
 ```
-Parse an address with the  `url.parse()`  method, and it will return a URL object with each part of the address as properties:
 
-### Example
+URL ünvanını parçalamaq üçün `url.parse()` metodundan istifadə etmək gərəkdir. Bu method, yeni bir URL obyekti (JS terminidir) qaytarır (return edir):
 
-Split a web address into readable parts:
+Nümunə:
+Veb ünvanının oxunabilən hissələrə parçalanması: 
 ```js
 var  url = require('url');  
 var  adr =  'http://localhost:8080/default.htm?year=2017&month=february';  
 var  q = url.parse(adr,  true);  
   
-console.log(q.host);  //returns 'localhost:8080'  
-console.log(q.pathname);  //returns '/default.htm'  
-console.log(q.search);  //returns '?year=2017&month=february'  
+console.log(q.host);  //'localhost:8080' qaytarır  
+console.log(q.pathname);  // '/default.htm' qaytarır 
+console.log(q.search);  //'?year=2017&month=february' qaytarır
   
-var  qdata = q.query;  //returns an object: { year: 2017, month: 'february' }  
-console.log(qdata.month);  //returns 'february'  
+var  qdata = q.query;  //bu obyekti qaytarır: { year: 2017, month: 'february' }  
+console.log(qdata.month);  //'february' qaytarır
 ```
 
 ## Node.js File Server
