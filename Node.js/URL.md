@@ -25,36 +25,38 @@ var  qdata = q.query;  //bu obyekti qaytarır: { year: 2017, month: 'february' }
 console.log(qdata.month);  //'february' qaytarır
 ```
 
-## Node.js File Server
+## Node.js Fayl serveri
+Veb ünvanını hissələrə bölməyi öyrəndikdən sonra artıq fayl sistemi ilə birlikdə istifadə edə bilərik. 
 
-Now we know how to parse the query string, and in the previous chapter we learned how to make Node.js behave as a file server. Let us combine the two, and serve the file requested by the client.
+İki ayrı HTML faylı yaradıb Node.js faylı yerləşən qovluq daxilində yaddaşda saxlayırıq. 
 
-Create two html files and save them in the same folder as your node.js files.
+`yay.html`
 
-summer.html
-
+```html
 <!DOCTYPE html>  
 <html>  
 <body>  
-<h1>Summer</h1>  
-<p>I love the sun!</p>  
+<h1>Yay</h1>  
+<p>Yay çox gözəldir!</p>  
 </body>  
 </html>
+```
+`winter.html`
 
-winter.html
-
+```html
 <!DOCTYPE html>  
 <html>  
 <body>  
-<h1>Winter</h1>  
-<p>I love the snow!</p>  
+<h1>Qış</h1>  
+<p>Qarlı havanı sevirəm!</p>  
 </body>  
 </html>
+```
 
+İndi isə bu fayllardan istənilən birinin istifadəçiyə verilməsi üçün Node.js serveri yaradaq: 
 
-Create a Node.js file that opens the requested file and returns the content to the client. If anything goes wrong, throw a 404 error:
+`demo_faylserveri.js:`
 
-demo_fileserver.js:
 ```js
 var  http = require('http');  
 var  url = require('url');  
@@ -74,26 +76,8 @@ return  res.end();
 });  
 }).listen(8080);
 ```
-Remember to initiate the file:
+Serveri başladmaq üçün aşağıdakı sətri yazırıq: 
 
-Initiate demo_fileserver.js:
 ```bash
 C:\Users\_Your Name_>node demo_fileserver.js
 ```
-If you have followed the same steps on your computer, you should see two different results when opening these two addresses:
-
-[http://localhost:8080/summer.html](http://localhost:8080/summer.html)
-
-Will produce this result:
-
-# Summer
-
-I love the sun!
-
-[http://localhost:8080/winter.html](http://localhost:8080/winter.html)
-
-Will produce this result:
-
-# Winter
-
-I love the snow!
