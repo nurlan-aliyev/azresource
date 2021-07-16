@@ -79,5 +79,5 @@ return  res.end();
 Serveri başlatmaq üçün aşağıdakı sətri yazırıq: 
 
 ```bash
-C:\Users\_Your Name_>node demo_fileserver.js
+C:\Users\_Your Name_>node demo_faylserveri.js
 ```
