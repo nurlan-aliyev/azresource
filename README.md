@@ -10,4 +10,8 @@
 
 <a href="https://github.com/nurlan-aliyev/azresource/tree/main/Node.js" target="_blank">Node.js haqqında məlumat üçün klikləyin</a>
 
-Müəllif: <b><em>Nurlan Aliyev</em></b>
+[Python haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Python)
+
+Müəlliflər: 
+- <b><em>Nurlan Aliyev</em></b>
+- <b><em>Murad Amrali</em></b>
