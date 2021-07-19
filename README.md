@@ -12,7 +12,13 @@
 
 [Python haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Python)
 
+***
+
 Müəllif: <b><em>Nurlan Aliyev</em></b>
 
+***
+
 <strong>Kontributorlar:</strong>
+
 - <b><em>Murad Amrali</em></b>
+- <b><em>S-n Amil</em></b>
