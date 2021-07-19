@@ -9,7 +9,10 @@ Meta + Base elementləri
 ...
 <meta charset="UTF-8">
 ```
-(***UTF-8*** simvol (hərf/rəqəm/işarə) toplusu olan bir beynəlxaq simvol standartıdır. Normalda daha öncələr HTML 5-dən öncə kompüterlərdə ASCII ya d ANSII standartı vardı. Amerikan hərf/simvol standartı idi. 255 simvol vardı. 28 kiçik 28 böyük olmaqla latın hərfləri 0-9 kimi ədədlər və digər * /+ - ( ) , ş & ^ % # @  işarələr vardı. Cəmi toplamda 255 simvol. Ancaq Unicode (Universal Code)  gəldikdən sonra dünydakı bütün dillərin hərfləri (Çin, Yapon, Ərəb, Gürcü, Fars, Ölü dillər və o cümlədən Azərbaycan hərfləri Ə, Ö, Ğ, Ç Ş, Ü, I və s.) əlavə edildi. İndi 3000-dən çox simvol vardır. Bunu GOOGLE-da axtarışda rahatlıqla tapa bilərsiz (axtarışa: UTF-8 All Symbols yazın). Yazar: S-n Amil
+(***UTF-8*** simvol (hərf/rəqəm/işarə) toplusu olan bir beynəlxaq simvol standartıdır.
+Normalda HTML5-dən öncə kompüterlərdə ASCII və yaxud 255 simvoldan ibarət olan ANSII standartı var idi. 28 kiçik və 28 böyük olmaqla latın hərfləri, 0-9 aralığında rəqəmlər və  (**"* /+ - ( ) , ş & ^ % # @"**)  işarələri bu standarta daxildir.
+Lakin, **Unicode** (*Universal Code*) standartlaşdırıldıqdan sonra dünya üzərindəki bütün dillərin hərfləri (Çin, Yapon, Ərəb, Gürcü, Fars, Ölü dillər və o cümlədən Azərbaycan hərfləri Ə, Ö, Ğ, Ç Ş, Ü, I və s.) əlavə edildi. İndilərdə bu standartda 3000-dən çox simvol mövcuddur. 
+
 ```
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 <meta name="description" content="Sayt haqqında bilgi">
