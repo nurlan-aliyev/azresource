@@ -13,4 +13,8 @@
 ![commit et](https://github.com/nurlan-aliyev/azresource/blob/844521d3b9144b73b42cebf2b27220e97dc66cb8/assets/commit.png)
 
 5.Daha sonra isə **Create pull request** düyməsinə bas.
+
+![create pr](https://github.com/nurlan-aliyev/azresource/blob/844521d3b9144b73b42cebf2b27220e97dc66cb8/assets/pullReq.png)
+
+
 6.Bir daha təbriklər! Artıq yazdığın fayl incələnmə üçün oxunacaq, qəbul olunsa adın kontributorlar hissəsində yer alacaq.
