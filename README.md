@@ -22,3 +22,4 @@ Müəllif: <b><em>Nurlan Aliyev</em></b>
 
 - <b><em>Murad Amrali</em></b>
 - <b><em>S-n Amil</em></b>
+- <b><em>Veys Aliyev</em></b>
