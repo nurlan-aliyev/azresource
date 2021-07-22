@@ -13,4 +13,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Tezliklə baxılacaq!'
-        pr-message: 'Təbriklər! Siz də artıq kontributor sayılırsınız, kontribusiyanıza tezliklə baxılacaq'
+        pr-message: 'Kontribusiyanıza tezliklə baxılacaq'
