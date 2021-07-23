@@ -35,4 +35,4 @@ Node.js çox hallarda tək prosesli (baxılan əməlliyyat zamanı prosessorun t
 - Node.js faylları hər hansısa effektə sahib olmaları üçün qabaqcadan serverə yerləşdirilməlidir 
 - Node.js fayllarının uzantıları ".js", ".mjs", ".cjs" kimi qeyd olunur
 
-<!-- [Next](./FirstUnderstanding.md) -->
+<!-- [Next](./IlkAnlayislar.md) -->
