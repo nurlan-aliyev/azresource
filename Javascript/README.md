@@ -1,4 +1,21 @@
+# JavaScript (JS)
 
+## Niyə JS?
+
+JS, web səhifələrin interaktiv olmasına imkan verən həm müştəri, həm də server tərəfində istifadə olunan mətn əsaslı bir proqramlaşdırma dilidir. HTML və CSS veb səhifələrə struktur və üslub verən dillər olduqda, JavaScript veb səhifələrə bir istifadəçini cəlb edən interaktiv elementlər verir. Hər gün istifadə edə biləcəyiniz ümumi JavaScript nümunələrinə Amazondakı axtarış qutusu, New York Times qəzetinə yerləşdirilmiş bir xəbər özetləmə videosu.
+
+## Plan
+
+- JS nədir?
+  - [Giriş](Core/Giris.md)
+  - [İlk anlayışlar](Core/IlkAnlayislar.md)
+- Browser JavaScript
+  - [Giriş](Browser/Giris.md)
+- NodeJS
+  - [Giriş](Node/Giris.md)
+
+
+<!--
 # Node.js nədir?
 - Node.js açıq qaynaqlı server mühitidir
 - Node.js pulsuz istifadəlidir
@@ -386,7 +403,8 @@ return  res.end();
 ```
 Serveri başlatmaq üçün aşağıdakı sətri yazırıq: 
 
-```bash
+```shell
 C:\Users\_Your Name_>node demo_fileserver.js
 ```
 ***
+-->

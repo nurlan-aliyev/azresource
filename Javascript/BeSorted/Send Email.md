@@ -33,7 +33,7 @@ pass:  '_yourpassword_'
 var  mailOptions = {  
 from:  '_youremail@gmail.com_',  
 to:  '_myfriend@yahoo.com_',  
-subject:  'Sending Email using Node.js',  
+subject:  'Sending Email using Javascript',  
 text:  'That was easy!'  
 };  
   
@@ -59,7 +59,7 @@ Send email to more than one address:
 var mailOptions = {  
 from: 'youremail_@gmail.com',  
 to: 'myfriend@yahoo.com, myotherfriend@yahoo.com',  
-subject: 'Sending Email using Node.js',  
+subject: 'Sending Email using Javascript',  
 text: 'That was easy!'  
 }
 ```
@@ -75,7 +75,7 @@ Send email containing HTML:
 var  mailOptions = {  
 from:  'youremail_@gmail.com',  
 to:  'myfriend@yahoo.com',  
-subject:  'Sending Email using Node.js',  
+subject:  'Sending Email using Javascript',  
 html:  '<h1>Welcome</h1><p>That was easy!</p>'  
 }
 ```
