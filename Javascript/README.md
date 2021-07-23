@@ -6,9 +6,13 @@ JS, web səhifələrin interaktiv olmasına imkan verən həm müştəri, həm d
 
 ## Plan
 
-- JavaScript nədir?
-  - [Giriş](./Core/Entry.md)
-  - [İlk anlayışlar](./Core/FirstUnderstanding.md)
+- JS nədir?
+  - [Giriş](Core/Giris.md)
+  - [İlk anlayışlar](Core/IlkAnlayislar.md)
+- Browser JavaScript
+  - [Giriş](Browser/Giris.md)
+- NodeJS
+  - [Giriş](Node/Giris.md)
 
 
 <!--
