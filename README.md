@@ -15,6 +15,7 @@
 - <a href="https://github.com/nurlan-aliyev/azresource/tree/main/Javascript" target="_blank">Javascript haqqında məlumat üçün klikləyin</a>
 
 - [Python haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Python)
+    - [*Kod nümunələri*](https://github.com/nurlan-aliyev/azresource/tree/main/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri)
 
 ***
 
