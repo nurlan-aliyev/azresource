@@ -8,13 +8,13 @@
 
 ### Əgər sizin də İngilis dili biliyiniz və Git bacarığınız varsa siz də Azərbaycan dilində materialları yükləyə bilərsiniz. [İlk öncə bu faylı oxu](https://github.com/nurlan-aliyev/azresource/blob/24cb26ebf335f90f5127ec401fd77d452a38c31d/CONTRIBUTING.md) 
 
-<a href="https://github.com/nurlan-aliyev/azresource/tree/main/HTML5" target="_blank">HTML5 haqqında məlumat üçün klikləyin</a>
+- <a href="https://github.com/nurlan-aliyev/azresource/tree/main/HTML5" target="_blank">HTML5 haqqında məlumat üçün klikləyin</a>
 
-<a href="https://github.com/nurlan-aliyev/azresource/tree/main/SQL" target="_blank">SQL haqqında məlumat üçün klikləyin</a>
+- <a href="https://github.com/nurlan-aliyev/azresource/tree/main/SQL" target="_blank">SQL haqqında məlumat üçün klikləyin</a>
 
-<a href="https://github.com/nurlan-aliyev/azresource/tree/main/Javascript" target="_blank">Javascript haqqında məlumat üçün klikləyin</a>
+- <a href="https://github.com/nurlan-aliyev/azresource/tree/main/Javascript" target="_blank">Javascript haqqında məlumat üçün klikləyin</a>
 
-[Python haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Python)
+- [Python haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Python)
 
 ***
 
