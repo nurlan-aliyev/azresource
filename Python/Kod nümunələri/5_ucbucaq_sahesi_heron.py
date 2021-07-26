@@ -5,7 +5,7 @@ Kod №5 - Üçbucağın sahəsinin Heron düsturu ilə tapılması
 
 Kopyalayıb kodu test edə bilərsiniz
 
-Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/2ededlercemipy?v=1
+Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/5UcbucaqSahesiHeron#main.py
 """
 
 
