@@ -5,7 +5,7 @@ Kod №6 - hədləri real ədədlər olan və a ≠ 0 olan ax2 + bx + c = 0 kvad
 
 Kopyalayıb kodu test edə bilərsiniz
 
-Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/2ededlercemipy?v=1
+Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/6KvadratTenlik#main.py
 """
 
 import math, cmath
