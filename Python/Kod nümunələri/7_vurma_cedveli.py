@@ -5,7 +5,7 @@ Kod №7 - Vurma cədvəli
 
 Kopyalayıb kodu test edə bilərsiniz
 
-Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/2ededlercemipy?v=1
+Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/7VurmaCedveli#main.py
 """
 
 
