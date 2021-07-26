@@ -5,7 +5,7 @@ Kod №3 - Selsi-Fahrenheit çevirməsi
 
 Kopyalayıb kodu test edə bilərsiniz
 
-Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/2ededlercemipy?v=1
+Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/3SelsiFahrenheitCevirici#main.py
 """
 
 # Aşağıdakı qiyməti istəyə uyğun dəyişə bilərsiniz
