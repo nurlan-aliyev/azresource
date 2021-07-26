@@ -5,7 +5,7 @@ Kod №4 - Fahrenheit-Selsi çevirməsi
 
 Kopyalayıb kodu test edə bilərsiniz
 
-Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/2ededlercemipy?v=1
+Və yaxud bu link vasitəsilə yoxlaya bilərsiniz  https://replit.com/@NurlanAliyev/4FahrenheitSelsiCevirici
 """
 
 # Aşağıdakı qiyməti istəyə uyğun dəyişə bilərsiniz
