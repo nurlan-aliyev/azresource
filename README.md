@@ -1,6 +1,6 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnurlan-aliyev%2Fazresource&count_bg=%2379C83D&title_bg=%23555555&icon=openvpn.svg&icon_color=%23E7E7E7&title=Bax%C4%B1%C5%9F+say%C4%B1&edge_flat=false)](https://hits.seeyoufarm.com)
 
-# azresource - Proqramlaşdırma sahəsinə yeni başlayanlar, bildiklərini daha da dərinləşdirmək istəyənlər və əlavə texnologiyalar öyrənmək istəyənlər üçün nəzərdə tutulan bir layihədir. 
+<h1 align="center"> azresource - Proqramlaşdırma sahəsinə yeni başlayanlar, bildiklərini daha da dərinləşdirmək istəyənlər və əlavə texnologiyalar öyrənmək istəyənlər üçün nəzərdə tutulan bir layihədir. </h1>
 
 
 
