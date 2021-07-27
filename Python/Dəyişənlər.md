@@ -51,26 +51,19 @@ print(type(y)) # str sinifinin mesajı çap olunacaq
 
 ## Tək və yaxud qoşa dırnaqlar
 
-String tipli dəyişənlər həm tək (**'**) və yaxud qoşa (**"**) dırnaq işarəsi ilə yaradıla bilər. 
+String tipli dəyişənlər həm tək (**'**) və yaxud qoşa (**"**) dırnaq işarəsi ilə yaradıla bilər. Lakin qeyd olunacaq *string* tipli dəyişənin daxilində apostrof və yaxud tək dırnaq işarısi olacaqsa qoşa dırnaq işarəsi istifadə etmək daha məqsədəuyğundur. 
 
-### Example
+Nümunə: 
+```python
+x =  "Bakı"  
+# yuxarıdakı sətr aşağıdakı sətr ilə eynidir 
+x =  'Bakı'
 
-x =  "John"  
-# is the same as  
-x =  'John'
+# lakin aşağıdakı sətr fərqlidir
 
+x = "I'm a developer"
 
-----------
+x = 'I\'m a developer' # apostrof \ ilə ayırd edilir ki səhvə yol açmasın
 
-## Case-Sensitive
-
-Variable names are case-sensitive.
-
-### Example
-
-This will create two variables:
-
-a =  4  
-A =  "Sally"  
-#A will not overwrite a
+```
 
