@@ -4,7 +4,7 @@ Bu repoda siz Python dilində yazılmış kod nümunələrinə baxa bilərsiniz.
 
 | Adı         | Məlumat | Kodu oxuma linki | Kodu icra etmə linki |
 | :---       |    :----:   |     :---:     |  :---:   |
-| 1_salam_dunya.py | "Salam, Dünya!" yazısını çap edir | [Oxu](https://github.com/nurlan-aliyev/azresource/blob/d93c748eb829d5d77b2f303d5be2d4ec8e198942/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri/1_salam_dunya.py)  |  [İcra et](https://replit.com/@NurlanAliyev/1salamdunya)        |
+| 1_salam_dunya.py | "Salam, Dünya!" yazısını çap edir |  [Oxu](https://github.com/nurlan-aliyev/azresource/blob/d93c748eb829d5d77b2f303d5be2d4ec8e198942/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri/1_salam_dunya.py)  | <a href="https://replit.com/@NurlanAliyev/1salamdunya" target="_blank">İcra et</a>        |
 | 2_ededler_cemi.py| İki ədədin cəmini çap edir | [Oxu](https://github.com/nurlan-aliyev/azresource/blob/d93c748eb829d5d77b2f303d5be2d4ec8e198942/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri/2_ededler_cemi.py)  |  [İcra et]( https://replit.com/@NurlanAliyev/2ededlercemipy?v=1)        |
 | 3_selsi_fahrenheit_cevirici.py | Selsi-Fahrenheit çevirməsini yerinə yetirir | [Oxu](https://github.com/nurlan-aliyev/azresource/blob/d93c748eb829d5d77b2f303d5be2d4ec8e198942/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri/3_selsi_fahrenheit_cevirici.py)  |  [İcra et](https://replit.com/@NurlanAliyev/3SelsiFahrenheitCevirici#main.py)        |
 | 4_fahrenheit_selsi_cevirici.py | Fahrenheit-Selsi çevirməsini yerinə yetirir | [Oxu](https://github.com/nurlan-aliyev/azresource/blob/d93c748eb829d5d77b2f303d5be2d4ec8e198942/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri/4_fahrenheit_selsi_cevirici.py)  |  [İcra et](https://replit.com/@NurlanAliyev/4FahrenheitSelsiCevirici)        |
