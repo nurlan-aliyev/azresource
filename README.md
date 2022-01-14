@@ -17,6 +17,8 @@
 
 - [Python haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Python)
     - [*Kod nümunələri*](https://github.com/nurlan-aliyev/azresource/tree/main/Python/Kod%20n%C3%BCmun%C9%99l%C9%99ri)
+  
+- [Laravel haqqında məlumat üçün klikləyin](https://github.com/nurlan-aliyev/azresource/tree/main/Laravel)
 
 ***
 
@@ -29,7 +31,7 @@ Müəllif: <b><em>Nurlan Aliyev</em></b>
 - <b><em>Murad Amrali</em></b>
 - <b><em>S-n Amil</em></b>
 - <b><em>Veys Aliyev</em></b>
-
+- <b><em>aytiqaqash</em></b>
 
 ***
 
