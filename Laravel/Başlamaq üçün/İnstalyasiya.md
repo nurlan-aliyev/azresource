@@ -16,3 +16,12 @@ Biz Laravel'i "proqressiv" çərçivə adlandırmağı xoşlayırıq. Bununla La
 
 Əgər siz yüksək səviyyəli tərtibatçısınızsa, Laravel sizə asılılıq inyeksiyası, unit sınağı, növbələr, real vaxt hadisələri və s. üçün möhkəm alətlər təqdim edir. Laravel peşəkar veb proqramlar yaratmaq üçün mükəmməl şəkildə tənzimlənib və müəssisənin iş yüklərini idarə etməyə hazırdır.
 
+**Genişləndirilən Çərçivə**
+
+Laravel inanılmaz dərəcədə genişləndirilə bilər. PHPnın miqyasa uyğunluğu və Redis kimi sürətli, paylanmış keş sistemləri üçün Laravelin dəstəyi sayəsində üfüqi genişlənmə Laravel üçün çox rahatdır. Əslində, Laravel tətbiqləri ayda yüz milyonlarla sorğunu idarə etmək üçün asanlıqla miqyaslanıb.
+
+Həddindən artıq miqyas lazımdır? Laravel Vapor kimi platformalar sizə Laravel tətbiqinizi AWS-in ən son serversiz texnologiyasında demək olar ki, sonsuz miqyasda işlətməyə imkan verir.
+
+**İcma Çərçivəsi**
+
+Laravel PHP ekosistemindəki ən yaxşı paketləri birləşdirir və mövcud olan ən möhkəm və tərtibatçılara uyğun çərçivə təklif edir. Bundan əlavə, dünyanın hər yerindən minlərlə istedadlı tərtibatçı bu çərçivəyə öz töhfəsini verdi. Kim bilir, bəlkə siz hətta Laravel əməkdaşı (töhfə verən) olacaqsınız.
