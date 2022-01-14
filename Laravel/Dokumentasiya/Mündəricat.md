@@ -55,7 +55,7 @@
   [Rate Limiting]()
   [Task Scheduling]()
 
-[Security]()
+[Təhlükəsizlik]()
 
   [Authentication]()
   [Authorization]()
@@ -82,7 +82,7 @@
   [API Resources]()
   [Serialization]()
 
-[Testing]()
+[Sınaqlama]()
 
   [Getting Started]()
   [HTTP Tests]()
@@ -91,7 +91,7 @@
   [Database]()
   [Mocking]()
   
-[Packages]()
+[Paketlər]()
 
   [Breeze]()
   [Cashier (Stripe)]()
@@ -111,4 +111,4 @@
   [Telescope]()
   [Valet]()
 
-[API Documentation](https://laravel.com/api/8.x/)
+[API Dokumentasiya (rəsmi)](https://laravel.com/api/8.x/)
