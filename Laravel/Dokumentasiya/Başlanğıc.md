@@ -46,14 +46,6 @@ Laravel PHP ekosistemindəki ən yaxşı paketləri birləşdirir və mövcud ol
 
 ## Ayar dəyərlərinə daxil olmaq
 
-
-
-
-
-
-
-
-
 # Kataloq strukturu
 
 # Başlanğıc dəstləri
