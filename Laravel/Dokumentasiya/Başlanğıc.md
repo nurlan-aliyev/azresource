@@ -27,3 +27,35 @@ Həddindən artıq miqyas lazımdır? Laravel Vapor kimi platformalar sizə Lara
 **İcma Çərçivəsi**
 
 Laravel PHP ekosistemindəki ən yaxşı paketləri birləşdirir və mövcud olan ən möhkəm və tərtibatçılara uyğun çərçivə təklif edir. Bundan əlavə, dünyanın hər yerindən minlərlə istedadlı tərtibatçı bu çərçivəyə öz töhfəsini verdi. Kim bilir, bəlkə siz hətta Laravel əməkdaşı (töhfə verən) olacaqsınız.
+
+# Ayarlama - Configuration
+
+## Giriş
+
+## Mühitin ayarlanması
+
+## Mühitin Fayl TƏhlükəsizliyi
+
+## Əlavə mühit faylları
+
+## Mühitin Dəyişkənlərinin Növləri
+
+## Retrieving Environment Configuration - Düzgün tərcüməsini hələlik dəqiq bilmirəm
+
+## Mövcud mühitin müəyyən edilməsi
+
+## Ayar dəyərlərinə daxil olmaq
+
+
+
+
+
+
+
+
+
+# Kataloq strukturu
+
+# Başlanğıc dəstləri
+
+# Deployment
