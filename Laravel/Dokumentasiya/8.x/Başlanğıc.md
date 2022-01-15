@@ -28,6 +28,16 @@ Həddindən artıq miqyas lazımdır? Laravel Vapor kimi platformalar sizə Lara
 
 Laravel PHP ekosistemindəki ən yaxşı paketləri birləşdirir və mövcud olan ən möhkəm və tərtibatçılara uyğun çərçivə təklif edir. Bundan əlavə, dünyanın hər yerindən minlərlə istedadlı tərtibatçı bu çərçivəyə öz töhfəsini verdi. Kim bilir, bəlkə siz hətta Laravel əməkdaşı (töhfə verən) olacaqsınız.
 
+**Sənin ilk Laravel Proyektin**
+
+Biz istəyirik ki, Laravel ilə işə başlamaq mümkün qədər asan olsun. Laravel layihəsini öz kompüterinizdə hazırlamaq və həyata keçirmək üçün müxtəlif variantlar var. Müxtəlif variantları yoxlamaq və bilmək istəsəniz belə, Laravel sizə Sail təklif edir. Sail [Docker](https://www.docker.com/) -ə əlavə olunan Laravel proyektini işlətmək üçün lazım olan həlldir.
+
+Docker şəxsi kompüterinizin quraşdırılmış proqram təminatına və ya konfiqurasiyasına mane olmayan kiçik, yüngülçəkili "qablarda" tətbiqlər və xidmətlərin idarə edilməsi üçün bir vasitədir. Bu o deməkdir ki, şəxsi kompüterinizdə veb serverlər və verilənlər bazası kimi mürəkkəb inkişaf alətlərini konfiqurasiya etmək və ya quraşdırmaqdan narahat olmaq lazım deyil. Başlamaq üçün yalnız [Docker Desktop](https://www.docker.com/products/docker-desktop) quraşdırmalısınız.
+
+Laravel Sail Laravelin Dockerdə olan susmaya görə ayarlarına uyğun gələn yüngül əmr-xətt (command-line) görünüşdür (interface). Sail sizə Docker təcrübəniz olmadan PHP, MySQL və Redis ilə Laravel tətbiqini yığmağa başlanğıc nöqtəsini verir.
+
+> Docker mütəxəssisən? Narahat olma! Sail ayarlana bilir istəyinizə uyğun. Sadəcə Laravelə daxil olan `docker-compose.yml` faylına nəzər yetirin. 
+
 # Ayarlama - Configuration
 
 ## Giriş
