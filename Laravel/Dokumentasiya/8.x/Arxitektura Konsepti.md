@@ -1,4 +1,4 @@
-# Sorğunu Yaşamaq Dövrü
+# Sorğunun Yaşamaq Dövrü
 
 # Xidmət konteyneri
 
