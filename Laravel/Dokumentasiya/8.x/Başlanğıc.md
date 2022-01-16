@@ -136,11 +136,70 @@ Tətbiqiniz Docker konteynerləri işləməyə başladıqdan sonra siz tətbiqin
 
 ### Öz Sail servislərini seçmək [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
+Sail vasitəsilə yeni Laravel proqramı yaradarkən, siz yeni tətbiqinizin docker-compose.yml faylında hansı xidmətlərin konfiqurasiya edilməsini seçmək üçün ``with`` sorğusundan istifadə edə bilərsiniz. Mövcud xidmətlərə mysql, pgsql, mariadb, redis, memcached, meilisearch, minio, selenium və mailhog daxildir:
 
+```
+curl -s "https://laravel.build/example-app?with=mysql,redis" | bash
+```
+
+Əgər xidmətləri özünüz təyin etməsəniz, susmaya görə növbəti xidmətlər olacaq: mysql, redis, meilisearch, mailhog və selenium
 
 ### Composer ilə quraşdırma [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
+Əgər kompüterinizdə artıq PHP və Composer quraşdırılıbsa, siz birbaşa Composer-dən istifadə etməklə yeni Laravel layihəsi yarada bilərsiniz. Tətbiq yaradıldıqdan sonra siz Artisan CLI-nin xidmət əmrindən istifadə edərək Laravel-in yerli  serverini işə sala bilərsiniz:
+
+```
+composer create-project laravel/laravel example-app
+
+cd example-app
+
+php artisan serve
+```
+**Laravel quraşdırma (Installer)**
+
+Laraveli quraşdırmaq üçün Composer ilə xüsusi paket quraşdırıb, sonra onun vasitəsi ilə də quraşdıra bilərsiz:
+
+```
+composer global require laravel/installer
+
+laravel new example-app
+
+cd example-app
+
+php artisan serve
+```
+
+Kompozerin (Composer) bin direktivini ``$PATH`` dəyişkəninə əlavə edin ki, laravel (əmri) sizin sistemə yerləşdirilsin. Direktiv Əməliyyat sistemindən asılı olaraq fərqli lokasiyalar da olur:
+
+  - [ :exclamation: ] macOS: ```$HOME/.composer/vendor/bin```
+  - [ :exclamation: ] Windows: ```%USERPROFILE%\AppData\Roaming\Composer\vendor\bin```
+  - [ :exclamation: ] GNU / Linux Distributions: ```$HOME/.config/composer/vendor/bin or $HOME/.composer/vendor/bin```
+
+Proyektin git repositoriya olaraq yaradılmasını istəyirsinizsə " ```--git``` " əlavə edin:
+
+```laravel new example-app --git```
+
+Qeyd olunan əmr preoyekti və git reporitoriyanı yaratmaqla, ilk commiti də avtomatik Laravelin ilkin strukturunu edir.
+Git bayrağının qoyulması nəzərdə tutur ki, siz Git sistemini kompüterinizə quraşdırmısınız və ayarlamısız. ```--branch``` bayrağını da ilkin budağın adını qeyd etmək üçün əlavə edə bilərsiniz.
+
+```laravel new example-app --git --branch="main"```
+
+```--git``` bayrağından istifadə etmək əvəzinə, siz Git repozitoriyası yaratmaq üçün ```--github``` bayrağından da istifadə edə və həmçinin GitHub-da müvafiq şəxsi repozitoriya yarada bilərsiniz:
+
+```laravel new example-app --github```
+
+Yaradılan repositoriya ``https://github.com/<your-account>/example-app`` linkdə əlçatan olacaq. ``--github`` bayrağını əlavə etməyiniz nəzərdə tutur ki, siz [GitHub CLI](https://cli.github.com/) düzgün quraşdırıb, ayarlamısınız. Əlbəttə git də düzgün quraşdırılmış və ayarlanmış olmalıdır. Ehtiyac olarsa GitHub CLI dəstəylədiyi digər bayraqları da əlavə edə bilərsiniz:
+
+``laravel new example-app --github="--public"``
+
+``--organization`` bayrağından istifadə edərək repositoriyanızı müəyyən orqanizasiya altında yarada bilərsiz
+
+`` laravel new example-app --github="--public" --organization="laravel" ``
+
 # Ayarlama - Configuration [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+
+
 
 ## Giriş [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
