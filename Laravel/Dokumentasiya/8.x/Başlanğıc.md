@@ -55,7 +55,7 @@ Laravel Sail Laravelin Dockerdə olan susmaya görə ayarlarına uyğun gələn 
 
 ### MacOS sistemində başlamaq üçün [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) 
 
-Əgər Mac istifadə edirsənsə və Docker Desktop artıq quraşdırılıbsa, sadə terminal əmri istifadə edərək, yeni Laravel proyekti yarada bilərsən. Misal üçün, "example-app" direktivində yeni Laravel tətbiqini yaratmaq üçün, növbəti əmrdən istifadə etmək lazımdır:
+Əgər Mac istifadə edirsinizsə və Docker Desktop artıq quraşdırılıbsa, sadə terminal əmri istifadə edərək, yeni Laravel proyekti yarada bilərsiz. Misal üçün, "example-app" direktivində yeni Laravel tətbiqini yaratmaq üçün, növbəti əmrdən istifadə etmək lazımdır:
 
 `curl -s "https://laravel.build/example-app" | bash`
 
@@ -113,7 +113,30 @@ Bu alətlər quraşdırıldıqdan sonra istənilən Laravel layihəsini Windows 
 
 ### Linux sistemində başlamaq üçün [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
+Əgər Linux sistemindən istifadə edirsinizsə və Docker Desktop artıq quraşdırılıbsa, sadə terminal əmri istifadə edərək, yeni Laravel proyekti yarada bilərsiz. Misal üçün, "example-app" direktivində yeni Laravel tətbiqini yaratmaq üçün, növbəti əmrdən istifadə etmək lazımdır:
+
+`curl -s "https://laravel.build/example-app" | bash`
+
+Əlbəttə siz "example-app" əvəzinə istədiyiniz yaza bilərdiniz. Sadəcə o zaman proyektinizin direktivi həmin cür adlanacaq.
+
+Laravel tətbiqiniz yaradıldıqdan sonra, həmin direktivə keçid edib Sail işlətmək lazımdır.
+
+```
+cd example-app
+
+./vendor/bin/sail up
+```
+
+Sail-i ilk dəfə işlətmək biraz vaxtınızı alacaq ki, lazımı konteynerlər qurulsun. Bir neçə dəqiqə ala bilər. Lakin narahat olmağa heç bir səbəb yoxdur, sonrakı cəhdləriniz daha tez yerinə yetiriləcək.
+
+Tətbiqiniz Docker konteynerləri işləməyə başladıqdan sonra siz tətbiqinizi [http://localhost](http://localhost) adresinə brauzerdən keçməklə baxa bilərsiniz.
+
+> Laravel Sail haqqında daha çox məlumat əldə etmək üçün [buraya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Paketl%C9%99r.md#Sail) keçid edə bilərsiniz
+
+
 ### Öz Sail servislərini seçmək [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+
 
 ### Composer ilə quraşdırma [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
