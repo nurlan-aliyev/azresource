@@ -14,10 +14,10 @@
 
 [Arxitektura Konsepti](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/Arxitektura%20Konsepti.md)
 
-  - [Sorğunun Yaşamaq Dövrü]()
-  - [Xidmət konteyneri]()
-  - [Xidmət təminatçıları]()
-  - [Fasadlar]()
+  - [Sorğunun Yaşamaq Dövrü](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#sor%C4%9Funun-ya%C5%9Famaq-d%C3%B6vr%C3%BC)
+  - [Xidmət konteyneri](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#xidm%C9%99t-konteyneri)
+  - [Xidmət təminatçıları](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#xidm%C9%99t-t%C9%99minat%C3%A7%C4%B1lar%C4%B1)
+  - [Fasadlar](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#fasadlar)
 
 [Əsasları](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/Əsasları.md)
 
@@ -35,7 +35,7 @@
   - [Error Handling]()
   - [Logging]()
 
-[Daha Ətraflı]()
+[Daha Ətraflı](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Daha%20%C6%8Ftrafl%C4%B1.md)
 
   - [Artisan Console]()
   - [Broadcasting]()
@@ -55,7 +55,7 @@
   - [Rate Limiting]()
   - [Task Scheduling]()
 
-[Təhlükəsizlik]()
+[Təhlükəsizlik](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/T%C9%99hl%C3%BCk%C9%99sizlik.md)
 
   - [Authentication]()
   - [Authorization]()
@@ -64,7 +64,7 @@
   - [Hashing]()
   - [Password Reset]()
 
-[Verilənlər Bazası]()
+[Verilənlər Bazası](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Veril%C9%99nl%C9%99r%20Bazas%C4%B1.md)
 
   - [Getting Started]()
   - [Query Builder]()
@@ -73,7 +73,7 @@
   - [Seeding]()
   - [Redis]()
 
-[Eloquent ORM]()
+[Eloquent ORM](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Eloquent%20ORM.md)
 
   - [Getting Started]()
   - [Relationships]()
@@ -82,7 +82,7 @@
   - [API Resources]()
   - [Serialization]()
 
-[Sınaqlama]()
+[Sınaqlama](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/S%C4%B1naqlama.md)
 
   - [Getting Started]()
   - [HTTP Tests]()
@@ -91,7 +91,7 @@
   - [Database]()
   - [Mocking]()
   
-[Paketlər]()
+[Paketlər](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Paketl%C9%99r.md)
 
   - [Breeze]()
   - [Cashier (Stripe)]()
@@ -104,7 +104,7 @@
   - [Jetstream]()
   - [Octane]()
   - [Passport]()
-  - [Sail]()
+  - [Sail](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Paketl%C9%99r.md#Sail)
   - [Sanctum]()
   - [Scout]()
   - [Socialite]()
