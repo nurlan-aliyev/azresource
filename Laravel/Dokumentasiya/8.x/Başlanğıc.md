@@ -155,7 +155,7 @@ cd example-app
 
 php artisan serve
 ```
-**Laravel quraşdırma (Installer)**
+### Laravel quraşdırma (Installer)
 
 Laraveli quraşdırmaq üçün Composer ilə xüsusi paket quraşdırıb, sonra onun vasitəsi ilə də quraşdıra bilərsiz:
 
@@ -171,9 +171,9 @@ php artisan serve
 
 Kompozerin (Composer) bin direktivini ``$PATH`` dəyişkəninə əlavə edin ki, laravel (əmri) sizin sistemə yerləşdirilsin. Direktiv Əməliyyat sistemindən asılı olaraq fərqli lokasiyalar da olur:
 
-  - [ :exclamation: ] macOS: ```$HOME/.composer/vendor/bin```
-  - [ :exclamation: ] Windows: ```%USERPROFILE%\AppData\Roaming\Composer\vendor\bin```
-  - [ :exclamation: ] GNU / Linux Distributions: ```$HOME/.config/composer/vendor/bin or $HOME/.composer/vendor/bin```
+  - macOS: ```$HOME/.composer/vendor/bin```
+  - Windows: ```%USERPROFILE%\AppData\Roaming\Composer\vendor\bin```
+  - GNU / Linux Distributions: ```$HOME/.config/composer/vendor/bin or $HOME/.composer/vendor/bin```
 
 Proyektin git repositoriya olaraq yaradılmasını istəyirsinizsə " ```--git``` " əlavə edin:
 
