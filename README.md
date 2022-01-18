@@ -32,6 +32,7 @@ Müəllif: <b><em>Nurlan Aliyev</em></b>
 - <b><em>S-n Amil</em></b>
 - <b><em>Veys Aliyev</em></b>
 - <b><em>aytiqaqash</em></b>
+- <b><em>Shahmar</em></b>
 
 ***
 
