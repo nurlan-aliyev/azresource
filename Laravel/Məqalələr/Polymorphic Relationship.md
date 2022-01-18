@@ -27,13 +27,19 @@ Tag model və migrations yaradırıq.
 
 Tags migrationsa daxil oluruq:
 
-> Schema::create(‘tags’, function (Blueprint $table) {
-    $table->id();
-    $table->string(‘name’);
-    $table->unsignedBigInteger(‘taggable_id’);
-    $table->string(‘taggable_type);
-    $table->timestamps();
-});
+>Schema::create(‘tags’, function (Blueprint $table) {
+>
+>$table->id();
+>
+>$table->string(‘name’);
+>
+>$table->unsignedBigInteger(‘taggable_id’);
+>
+>$table->string(‘taggable_type);
+>
+>$table->timestamps();
+>
+>});
 
 taggable_id - bizim news və ya blogs cədvəlində id təmsil edir.
 taggable_type - isə modelimiz olacaq. Məsələn App\Models\News və ya App\Models\Blog.
@@ -45,23 +51,36 @@ Table yaranması üçün migrate edək.
 Daxil oluruq News və Blog Modelimizə. Burada tags metodu yaradırıq:
 
 > use HasFactory;
-protected $guarded = [];
-public function tags()
-{
-    return $this->morphMany(Tag::class,’taggable’);
-}
+> 
+>protected $guarded = [];
+>
+>public function tags()
+>
+>{
+>
+>    return $this->morphMany(Tag::class,’taggable’);
+>    
+>}
 
 Daxil oluruq Tag modelimizə və bunun əksini qeyd edirik:
 
 > class Tag extends Model
-{
-    use HasFactory;
-    protected $guarded = [];
-    public function taggable()
-    {
-        return $this->morphTo();
-    }
-}
+> 
+>{
+>
+>    use HasFactory;
+>    
+>    protected $guarded = [];
+>    
+>    public function taggable()
+>    
+>    {
+>    
+>    return $this->morphTo();
+>        
+>    }
+>    
+>}
 
 Gəlin tinker işlədərək saxta taglər əlavə edək. Terminalı açaq və kodları ardıcıllıqla icra edək:
 
@@ -107,9 +126,12 @@ Nəticə: IDsi 1 olan xəbərin tagi “qorxu”dur.
 Daxil olaq web.php
 
 > Route::get(‘/blog’, function () {
-    $blog = Blog::with(‘tags’)->find(1);
-    return $blog;
-});
+> 
+>$blog = Blog::with(‘tags’)->find(1);
+>
+>    return $blog;
+>    
+>});
 
 Siz bunu controllerdə də yaza bilərsiz. Bizə qaytarılan nəticə:
 
