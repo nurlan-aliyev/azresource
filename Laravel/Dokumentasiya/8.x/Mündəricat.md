@@ -1,3 +1,6 @@
+> Mündəricat hələlik hazır deyil, səhifələr tam hazır olduqca onların linklərini əlavə edəcəyik.
+> Laravelin dokumentasiyasının tərcüməsinə kömək etmək istəyənlər və ya maddi dəstək olmaq istəyənlər ``@aytiqaqash`` ilə əlaqə saxlaya bilər.
+
 [Proloq](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/Proloq.md)
 
   - [Realizasiya qeydləri]()
