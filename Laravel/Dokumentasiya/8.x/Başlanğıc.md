@@ -214,6 +214,23 @@ Sizin ``.env`` faylınız versiyanın idarə sisteminə commit olunmalı deyil, 
 
 Laravel həmişə veb serveriniz üçün konfiqurasiya edilmiş "veb kataloqunun" kökündən xidmət göstərməlidir. Siz "veb kataloqunun" alt kataloqundan Laravel proqramına xidmət göstərməyə çalışmamalısınız. Bunu etməyə cəhd tətbiqinizdə mövcud olan həssas faylları ifşa edə bilər.
 
+### Növbəti addımlar
+
+Proyektinizi yaratdıqdan sonra, onun üzərində necə işləməli və ümumiyyətlə növbəti addımlar necə olmalıdır sualı yarana bilər. İlk öncə növbəti mövzuları diqqətlə oxumağı və Laravelin necə işlədiyini başa düşməyi tövsiyə edirik:
+
+- :clipboard: [Sorğunun Yaşam Dövrü](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#sor%C4%9Funun-ya%C5%9Fam-d%C3%B6vr%C3%BC) - [Request Lifecycle](https://laravel.com/docs/8.x/lifecycle)
+- :clipboard: [Ayarlama](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#ayarlama---configuration--point_up_2-) - [Configuration](https://laravel.com/docs/8.x/configuration)
+- :clipboard: [Direktiv Strukturu](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#direktiv-strukturu--point_up_2-) - [Directory Structure](https://laravel.com/docs/8.x/structure)
+- :clipboard: [Xidmət konteyneri](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#xidm%C9%99t-konteyneri) - [Service Container](https://laravel.com/docs/8.x/container)
+- :clipboard: [Facades](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Arxitektura%20Konsepti.md#fasadlar) - [Facades](https://laravel.com/docs/8.x/facades)
+
+Laraveli necə istifadə edəcəyinizdən asılı olaraq sizin növbəti addımlarınız dəyişə bilər. Biz iki əsas istifadə növünə vurğulanacağıq. 
+
+### Laravel The Full Stack Framework 
+
+### Laravel The API Backend
+
+
 # Ayarlama - Configuration [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 ## Giriş [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
@@ -232,7 +249,7 @@ Laravel həmişə veb serveriniz üçün konfiqurasiya edilmiş "veb kataloqunun
 
 ## Ayar dəyərlərinə daxil olmaq [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-# Kataloq strukturu [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+# Direktiv strukturu [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 # Başlanğıc dəstləri [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
