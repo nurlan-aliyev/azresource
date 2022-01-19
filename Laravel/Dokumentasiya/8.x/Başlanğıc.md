@@ -196,10 +196,25 @@ Yaradılan repositoriya ``https://github.com/<your-account>/example-app`` linkd�
 
 `` laravel new example-app --github="--public" --organization="laravel" ``
 
+## Ilkin ayarlar
+
+Laravel çərçivəsində bütün ayar faylları ``config`` direktivində yerləşir. Bütün ayarlama varianları ayrı fayllardır, ona görə rahat hamısı ilə tanış ola bilərsiniz.
+
+Demək olar Laravelə əlavə ayar lazım deyil. Siz rahat kodlaşdırmağa başlaya bilərsiniz. Hərhalda sizə ``config/app.php`` faylı daha maraqlı olar. Onun daxilində siz vaxt (timezone) və geolokasiya ayarlarını tətbiqiniz üçün dəyişə bilərsiniz.
+
+### Mühit ayarları
+
+Nəzərə alsaq ki Laravelin ayarlanması istifadə olunacaq mühitdən asılıdır, tətbiqiniz şəxsi kompüterinizdə və ya prodakşn (production) serverdə işlədəcəksiniz, sizə mütləq lazım olacaq ayarları proyektinizin kökündə yerləşən ``.env`` faylında tapa bilərsiniz.
+
+Sizin ``.env`` faylınız versiyanın idarə sisteminə commit olunmalı deyil, çünki hər tərtibatçı (server) öz ayarlarını qeyd edəcək mühitdən asılı olaraq. Əlavə olaraq nəzərə alın ki, təhlükəsizlik baxımından da commit etmək olmaz. ``.env`` faylında sizin gizli saxlanılası məlumatlarınız olacaq.
+
+> ``.env`` faylı haqqında daha çox və ətraflı oxumaq istəyirsinizsə [Ingilis dilində](https://laravel.com/docs/8.x/configuration#environment-configuration) [Azərbaycan dilində](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#m%C3%BChitin-ayarlanmas%C4%B1--point_up_2-) oxuya bilərsiniz.
+
+### Direktiv ayarları
+
+Laravel həmişə veb serveriniz üçün konfiqurasiya edilmiş "veb kataloqunun" kökündən xidmət göstərməlidir. Siz "veb kataloqunun" alt kataloqundan Laravel proqramına xidmət göstərməyə çalışmamalısınız. Bunu etməyə cəhd tətbiqinizdə mövcud olan həssas faylları ifşa edə bilər.
+
 # Ayarlama - Configuration [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
-
-
-
 
 ## Giriş [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
