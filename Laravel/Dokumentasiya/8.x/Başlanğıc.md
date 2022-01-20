@@ -228,6 +228,15 @@ Laraveli necə istifadə edəcəyinizdən asılı olaraq sizin növbəti addıml
 
 ### Laravel The Full Stack Framework 
 
+Laravel Full Stack çərçivə kimi fəaliyət göstərə bilər. Full Stack dedikdə "Back End"dən əlavə "Front End" üçün Blade və ya İnertia.js istifadə edə bilməyinizi nəzərdə tuturuq. Full Stack Laravel çərçivəsinin ən çox istifadə edilmə yollarından biridir.
+
+Əgər siz Full Stack olaraq istifadəni planlaşdırırsınızsa, o zaman sizə dokumentasiyadan növbəti mövzuları nəzərdən keçirməyi tövsiyyə edərdim: ``routing, views`` və ya ``the Eloquent ORM``
+
+Əlavə olaraq CSS və Javascript kodlarını Laravel Mix ilə kompilyasiyanı bilmək üçün [Laravel Mix](https://laravel.com/docs/8.x/mix) [Laravel Mix Az]() haqqında oxumağı da məsləhət görürük.
+
+> Bir başa tətbiqinizi qurmağa başlamaq istəyirsinizsə [application starter kits]() [Başlanğıc dəstlərinə]()
+
+
 ### Laravel The API Backend
 
 
