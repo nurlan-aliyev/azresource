@@ -239,6 +239,11 @@ Laravel Full Stack çərçivə kimi fəaliyət göstərə bilər. Full Stack ded
 
 ### Laravel The API Backend
 
+Laravel həmçinin API servis kimi, JavaScript bir-səhifəlik tətbiqlər üçün və ya mobil tətbiqlər üçün də istifadə oluna bilər. Məsələn Laraveli [Next.js](https://nextjs.org/) tətbiqinin bəkendini qurmağa istifadə edə bilərsiniz. Bu halda Laraveli [autentifikasiya]() - ([Ingilis dilində](https://laravel.com/docs/8.x/sanctum)) və məlumatın saxlanılması və fronta geri qaytarması üçün, eyni zamanda Laravelin növbələr, e-poçtlar, bildirişlər və s. kimi xidmətlərindən istifadə oluna bilər.
+
+Əgər siz Laraveli API bekend kimi istifadə etmək istəyirsinizsə o zaman dokumentasiyamızdan növbəti mövzuları məsləhət görə bilərik [marşrutlaşdırma](), [Laravel Sanctum]() və [Eloquent ORM]().  [routing](https://laravel.com/docs/8.x/routing), [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) və [Eloquent ORM](https://laravel.com/docs/8.x/eloquent).
+
+> Laraveli bekend və Next.js frontend kimi istifadə edərək tətbiqinizə başlamaq istəyirsiz? Sizə Laravel Breeze təklif edirik, API və Next.js frontendin implementasiyası ilə bir neçə dəqiqəyə başlaya bilərsiniz.  
 
 # Ayarlama - Configuration [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
