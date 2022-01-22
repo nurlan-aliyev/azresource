@@ -295,7 +295,7 @@ Laravel həmçinin API xidməti kimi, JavaScript bir-səhifəlik tətbiqlər ü�
 ## Mühitin Dəyişkənlərinin Növləri 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Retrieving Environment Configuration - Düzgün tərcüməsini hələlik dəqiq bilmirəm 
+## Mühit dəyişkənlərinin istifadəsi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 ## Mövcud mühitin müəyyən edilməsi 
