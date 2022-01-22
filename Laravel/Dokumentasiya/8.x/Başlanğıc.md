@@ -225,7 +225,7 @@ Demək olar Laravelə əlavə ayar lazım deyil. Siz rahat kodlaşdırmağa baş
 
 ### Mühit ayarları
 
-Nəzərə alsaq ki Laravelin ayarlanması istifadə olunacaq mühitdən asılıdır, tətbiqiniz şəxsi kompüterinizdə və ya prodakşn (production) serverdə işlədəcəksiniz, sizə mütləq lazım olacaq ayarları proyektinizin kökündə yerləşən ``.env`` faylında tapa bilərsiniz.
+Nəzərə alsaq ki Laravelin ayarlanması istifadə olunacaq mühitdən asılıdır, tətbiqiniz şəxsi kompüterinizdə və ya istehsal (production) serverdə işlədəcəksiniz, sizə mütləq lazım olacaq ayarları proyektinizin kökündə yerləşən ``.env`` faylında tapa bilərsiniz.
 
 Sizin ``.env`` faylınız versiyanın idarə sisteminə commit olunmalı deyil, çünki hər tərtibatçı (server) öz ayarlarını qeyd edəcək mühitdən asılı olaraq. Əlavə olaraq nəzərə alın ki, təhlükəsizlik baxımından da commit etmək olmaz. ``.env`` faylında sizin gizli saxlanılası məlumatlarınız olacaq.
 
@@ -283,8 +283,22 @@ Laravel həmçinin API xidməti kimi, JavaScript bir-səhifəlik tətbiqlər ü�
 ## Giriş 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
+Laravel üçün bütün ayar faylları ``config`` direktivində saxlanılır. Bütün ayarlama varianları ayrı fayllardır, ona görə rahat hamısı ilə tanış ola bilərsiniz.
+
+Bu ayar faylları ilə siz verilənlər bazası ilə əlaqə üçün, mail server üçün və digər tarix vaxt ayalarını, enkript ayarlarını quraşdıra bilərsiniz. 
+
 ## Mühitin ayarlanması 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+Mühitə görə ayarların dəyərləri dəyişə bilər, fərqli ayar dəyərlərinin olması adətən yaxşı olur. Məsələn öz kompüterinizdə və istehsal (production) serverində fərqli keş ayarları istifadə etmiş ola bilərsiniz. 
+
+Bunu asanlaşdırmaq üçün Laravel [DotEnv](https://github.com/vlucas/phpdotenv) PHP kitabxanasından istifadə edir. Laraveli quraşdırdıqdan sonra onun direktivinin kökündə ``.env.example`` faylı olacaq, həmin faylda əsas mühit ayarları yerləşdirilib. Laraveli quraşdıran zaman həmin fayl avtomatik ``.env`` faylı kimi kopyalanacaq.
+
+Laravel'in susmaya görə ``.env`` faylı tətbiqinizin yerli və ya istehsal (production) veb serverində işləməsinə görə fərqlənə bilən bəzi ümumi ayarlar dəyərlərini ehtiva edir. Həmin ayarlar sonradan müxtəlif ayar fayllarından, ``config`` direktivində olan, env funksiyası vasitəsi ilə çağırılır və istifadə olunur.
+
+Əgər siz komandanızla tətbiq hazırlayırsınızsa, o zaman ``.env.example`` faylına mühit ayarlarınızı əlavə edə bilərsiniz ki, komanda yoldaşlarınız sizin tədbiqdə hansı ayarlar istifadə olunmalı olduğunu bilsinlər.
+
+> .env faylında olan mühit dəyişkənlərinin qiyməti server və ya sistem səviyyəsində olan mühit dəyişkəni tərəfindən dəyişdirilə bilər.
 
 ## Mühitin Fayl TƏhlükəsizliyi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
