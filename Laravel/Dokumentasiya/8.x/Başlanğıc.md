@@ -1,10 +1,14 @@
 [comment]: <> ( @TODO linkləri yoxlamaq lazımdır bitirdikdən sonra.)
- 
+
+> linklər tam düz işləmir, bu fayl ilə işləri bitirəndə linkləri bir daha yoxlayacağıq
+
+# Mündəricat
+
   - [X] [Instalyasiya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) [EN](https://laravel.com/docs/8.x/installation)
-  - [ ] [Ayarlama]() [EN](https://laravel.com/docs/8.x/configuration)
-  - [ ] [Direktiv strukturası]() [EN](https://laravel.com/docs/8.x/structure)
-  - [ ] [Başlanğıc dəstləri]() [EN](https://laravel.com/docs/8.x/starter-kits)
-  - [ ] [Yerləşdirmə]() [EN](https://laravel.com/docs/8.x/deployment)
+  - [ ] [Ayarlama](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#ayarlama---configuration) [EN](https://laravel.com/docs/8.x/configuration)
+  - [ ] [Direktiv strukturası](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#direktiv-strukturu) [EN](https://laravel.com/docs/8.x/structure)
+  - [ ] [Başlanğıc dəstləri](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#ba%C5%9Flan%C4%9F%C4%B1c-d%C9%99stl%C9%99ri) [EN](https://laravel.com/docs/8.x/starter-kits)
+  - [ ] [Yerləşdirmə](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#Yerləşdirmə) [EN](https://laravel.com/docs/8.x/deployment)
 
 
 # İnstalyasiya
@@ -306,5 +310,5 @@ Laravel həmçinin API xidməti kimi, JavaScript bir-səhifəlik tətbiqlər ü�
 # Başlanğıc dəstləri 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-# Deployment 
+# Yerləşdirmə 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
