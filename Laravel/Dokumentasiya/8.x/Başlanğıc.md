@@ -1,8 +1,10 @@
-  - [Instalyasiya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) [EN](https://laravel.com/docs/8.x/installation)
-  - [Ayarlama]() [EN](https://laravel.com/docs/8.x/configuration)
-  - [Direktiv strukturası]() [EN](https://laravel.com/docs/8.x/structure)
-  - [Başlanğıc dəstləri]() [EN](https://laravel.com/docs/8.x/starter-kits)
-  - [Yerləşdirmə]() [EN](https://laravel.com/docs/8.x/deployment)
+[comment]: <> ( @TODO linkləri yoxlamaq lazımdır bitirdikdən sonra.)
+ 
+  - [X] [Instalyasiya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) [EN](https://laravel.com/docs/8.x/installation)
+  - [ ] [Ayarlama]() [EN](https://laravel.com/docs/8.x/configuration)
+  - [ ] [Direktiv strukturası]() [EN](https://laravel.com/docs/8.x/structure)
+  - [ ] [Başlanğıc dəstləri]() [EN](https://laravel.com/docs/8.x/starter-kits)
+  - [ ] [Yerləşdirmə]() [EN](https://laravel.com/docs/8.x/deployment)
 
 
 # İnstalyasiya
@@ -263,15 +265,15 @@ Laravel həmçinin API xidməti kimi, JavaScript bir-səhifəlik tətbiqlər ü�
 # Ayarlama - Configuration 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-Introduction
-Environment Configuration
-Environment Variable Types
-Retrieving Environment Configuration
-Determining The Current Environment
-Accessing Configuration Values
-Configuration Caching
-Debug Mode
-Maintenance Mode
+  - [ ] [Giriş]() [Introduction](https://laravel.com/docs/8.x/configuration#introduction)
+  - [ ] [Mühit Ayarları]() [Environment Configuration](https://laravel.com/docs/8.x/configuration#environment-configuration)
+  - [ ] [Mühit dəyişkənlərinin ayarları]() [Environment Variable Types](https://laravel.com/docs/8.x/configuration#environment-variable-types)
+  - [ ] [Mühit dəyişkənlərinin istifadəsi]() [Retrieving Environment Configuration](https://laravel.com/docs/8.x/configuration#retrieving-environment-configuration)
+  - [ ] [Mövcud mühitin müəyyən edilməsi]() [Determining The Current Environment](https://laravel.com/docs/8.x/configuration#determining-the-current-environment)
+  - [ ] [Ayar dəyərlərinə daxil olmaq]() [Accessing Configuration Values](https://laravel.com/docs/8.x/configuration#accessing-configuration-values)
+  - [ ] [Ayarların keşlənməsi]() [Configuration Caching](https://laravel.com/docs/8.x/configuration#configuration-caching)
+  - [ ] [Sazlama rejimi]() [Debug Mode](https://laravel.com/docs/8.x/configuration#debug-mode)
+  - [ ] [Baxım rejimi]() [Maintenance Mode](https://laravel.com/docs/8.x/configuration#maintenance-mode)
 
 
 ## Giriş 
