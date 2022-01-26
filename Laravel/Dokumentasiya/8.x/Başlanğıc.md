@@ -1,3 +1,16 @@
+[comment]: <> ( @TODO linkləri yoxlamaq lazımdır bitirdikdən sonra.)
+
+> linklər tam düz işləmir, bu fayl ilə işləri bitirəndə linkləri bir daha yoxlayacağıq
+
+# Mündəricat
+
+  - [X] [Instalyasiya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) [EN](https://laravel.com/docs/8.x/installation)
+  - [ ] [Ayarlama](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#ayarlama---configuration) [EN](https://laravel.com/docs/8.x/configuration)
+  - [ ] [Direktiv strukturası](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#direktiv-strukturu) [EN](https://laravel.com/docs/8.x/structure)
+  - [ ] [Başlanğıc dəstləri](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#ba%C5%9Flan%C4%9F%C4%B1c-d%C9%99stl%C9%99ri) [EN](https://laravel.com/docs/8.x/starter-kits)
+  - [ ] [Yerləşdirmə](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#Yerləşdirmə) [EN](https://laravel.com/docs/8.x/deployment)
+
+
 # İnstalyasiya
 
 - [X] [Meet Laravel - Laraveli Qarşıla](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#laraveli-qar%C5%9F%C4%B1la)
@@ -5,17 +18,18 @@
 - [X] [Your First Laravel Project - İlk Laravel Proyektin](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87lk-laravel-proyektin)
   - [X] [Getting Started On macOS - MacOS sistemində başlamaq üçün](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#macos-sistemind%C9%99-ba%C5%9Flamaq-%C3%BC%C3%A7%C3%BCn)
   - [X] [Getting Started On Windows - Windows sistemində başlamaq üçün](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#windows-sistemind%C9%99-ba%C5%9Flamaq-%C3%BC%C3%A7%C3%BCn)
-  - [ ] [Getting Started On Linux - Linux sistemində başlamaq üçün](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#linux-sistemind%C9%99-ba%C5%9Flamaq-%C3%BC%C3%A7%C3%BCn)
-  - [ ] [Choosing Your Sail Services - Öz Sail servislərini seçmək]()
-  - [ ] [Installation Via Composer - Composer ilə quraşdırma]()
-- [ ] [Initial Configuration]()
-  - [ ] [Environment Based Configuration]()
-  - [ ] [Directory Configuration]()
-- [ ] [Next Steps]()
-  - [ ] [Laravel The Full Stack Framework]()
-  - [ ] [Laravel The API Backend]()
+  - [X] [Getting Started On Linux - Linux sistemində başlamaq üçün](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#linux-sistemind%C9%99-ba%C5%9Flamaq-%C3%BC%C3%A7%C3%BCn)
+  - [X] [Choosing Your Sail Services - Öz Sail servislərini seçmək]()
+  - [X] [Installation Via Composer - Composer ilə quraşdırma]()
+- [X] [Initial Configuration]()
+  - [X] [Environment Based Configuration]()
+  - [X] [Directory Configuration]()
+- [X] [Next Steps]()
+  - [X] [Laravel The Full Stack Framework]()
+  - [X] [Laravel The API Backend]()
 
-## Laraveli Qarşıla [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+## Laraveli Qarşıla 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 Laravel ifadəli, zərif sintaksisli veb üzərində işləyən tədbiqin çərçivəsidir. Çərçivə tətbiqin başlanğıc strukturasını və başlanğıc nöqtəsini verir ki, siz maraqlı nəsə yaratmağa fokuslanasınız.
 
@@ -23,7 +37,8 @@ Laravel hərtərəfli asılılıq inyeksiyası, ifadəli (expressive) verilənl�
 
 Fərqi yoxdur siz PHPnın çərçivələrindən yeni istifadə etməyə başlamısınız vəya illərin təcrübəsi var, Laravel sizinlə böyüyə biləcək bir çərçivədir. Biz sizə ilk addımlarını atmağa və veb developer kimi inkişaf etməyə kömək edəcəyik. Düzəldəcəyiniz tədbiqləri səbirsizliklə gözləyirik.
 
-## Niyə Laravel? [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+## Niyə Laravel? 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 Veb tətbiqini qurarkən siz mövcud müxtəlif alətlər və çərçivələr istifadə edə bilərsiniz. Lakin, biz inanırıq ki, Laravel müasir, tam funksionallı veb tətbiqlər yaratmaq üçün ən yaxşı seçimdir.
 
@@ -43,7 +58,8 @@ Həddindən artıq miqyas lazımdır? Laravel Vapor kimi platformalar sizə Lara
 
 Laravel PHP ekosistemindəki ən yaxşı paketləri birləşdirir və mövcud olan ən möhkəm və tərtibatçılara uyğun çərçivə təklif edir. Bundan əlavə, dünyanın hər yerindən minlərlə istedadlı tərtibatçı bu çərçivəyə öz töhfəsini verdi. Kim bilir, bəlkə siz hətta Laravel əməkdaşı (töhfə verən) olacaqsınız.
 
-### İlk Laravel Proyektin [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+### İlk Laravel Proyektin 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 Biz istəyirik ki, Laravel ilə işə başlamaq mümkün qədər asan olsun. Laravel layihəsini öz kompüterinizdə hazırlamaq və həyata keçirmək üçün müxtəlif variantlar var. Müxtəlif variantları yoxlamaq və bilmək istəsəniz belə, Laravel sizə Sail təklif edir. Sail [Docker](https://www.docker.com/) -ə əlavə olunan Laravel proyektini işlətmək üçün lazım olan həlldir.
 
@@ -53,7 +69,8 @@ Laravel Sail Laravelin Dockerdə olan susmaya görə ayarlarına uyğun gələn 
 
 > Docker mütəxəssisən? Narahat olma! Sail ayarlana bilir istəyinizə uyğun. Sadəcə Laravelə daxil olan `docker-compose.yml` faylına nəzər yetirin. 
 
-### MacOS sistemində başlamaq üçün [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) 
+### MacOS sistemində başlamaq üçün 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) 
 
 Əgər Mac istifadə edirsinizsə və Docker Desktop artıq quraşdırılıbsa, sadə terminal əmri istifadə edərək, yeni Laravel proyekti yarada bilərsiz. Misal üçün, "example-app" direktivində yeni Laravel tətbiqini yaratmaq üçün, növbəti əmrdən istifadə etmək lazımdır:
 
@@ -75,7 +92,8 @@ Tətbiqiniz Docker konteynerləri işləməyə başladıqdan sonra siz tətbiqin
 
 > Laravel Sail haqqında daha çox məlumat əldə etmək üçün [buraya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Paketl%C9%99r.md#Sail) keçid edə bilərsiniz
 
-### Windows sistemində başlamaq üçün [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) 
+### Windows sistemində başlamaq üçün 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya) 
 
 Windows maşınınızda yeni Laravel proqramı yaratmazdan əvvəl Docker Desktop quraşdırdığınızdan əmin olun. Sonra, Linux 2 (WSL2) üçün Windows Subsystem for Linux 2 (WSL2) quraşdırıldığını və aktiv olduğundan əmin olmalısınız. WSL sizə Windows 10-da Linux ikili icra sənədlərini yerli olaraq işə salmağa imkan verir. WSL2-nin quraşdırılması və aktivləşdirilməsi haqqında məlumatı [Microsoft-un tərtibatçı mühiti sənədlərində](https://docs.microsoft.com/en-us/windows/wsl/install) tapa bilərsiniz.
 
@@ -111,7 +129,8 @@ Tətbiqiniz Docker konteynerləri işləməyə başladıqdan sonra siz tətbiqin
 
 Bu alətlər quraşdırıldıqdan sonra istənilən Laravel layihəsini Windows Terminalından istifadə edərək proqramınızın kök kataloqundan `code .` əmrini icra etməklə aça bilərsiniz.
 
-### Linux sistemində başlamaq üçün [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+### Linux sistemində başlamaq üçün 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 Əgər Linux sistemindən istifadə edirsinizsə və Docker Desktop artıq quraşdırılıbsa, sadə terminal əmri istifadə edərək, yeni Laravel proyekti yarada bilərsiz. Misal üçün, "example-app" direktivində yeni Laravel tətbiqini yaratmaq üçün, növbəti əmrdən istifadə etmək lazımdır:
 
@@ -134,7 +153,8 @@ Tətbiqiniz Docker konteynerləri işləməyə başladıqdan sonra siz tətbiqin
 > Laravel Sail haqqında daha çox məlumat əldə etmək üçün [buraya](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Paketl%C9%99r.md#Sail) keçid edə bilərsiniz
 
 
-### Öz Sail servislərini seçmək [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+### Öz Sail servislərini seçmək 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 Sail vasitəsilə yeni Laravel proqramı yaradarkən, siz yeni tətbiqinizin docker-compose.yml faylında hansı xidmətlərin konfiqurasiya edilməsini seçmək üçün ``with`` sorğusundan istifadə edə bilərsiniz. Mövcud xidmətlərə mysql, pgsql, mariadb, redis, memcached, meilisearch, minio, selenium və mailhog daxildir:
 
@@ -144,7 +164,8 @@ curl -s "https://laravel.build/example-app?with=mysql,redis" | bash
 
 Əgər xidmətləri özünüz təyin etməsəniz, susmaya görə növbəti xidmətlər olacaq: mysql, redis, meilisearch, mailhog və selenium
 
-### Composer ilə quraşdırma [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+### Composer ilə quraşdırma 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 Əgər kompüterinizdə artıq PHP və Composer quraşdırılıbsa, siz birbaşa Composer-dən istifadə etməklə yeni Laravel layihəsi yarada bilərsiniz. Tətbiq yaradıldıqdan sonra siz Artisan CLI-nin xidmət əmrindən istifadə edərək Laravel-in yerli  serverini işə sala bilərsiniz:
 
@@ -204,7 +225,7 @@ Demək olar Laravelə əlavə ayar lazım deyil. Siz rahat kodlaşdırmağa baş
 
 ### Mühit ayarları
 
-Nəzərə alsaq ki Laravelin ayarlanması istifadə olunacaq mühitdən asılıdır, tətbiqiniz şəxsi kompüterinizdə və ya prodakşn (production) serverdə işlədəcəksiniz, sizə mütləq lazım olacaq ayarları proyektinizin kökündə yerləşən ``.env`` faylında tapa bilərsiniz.
+Nəzərə alsaq ki Laravelin ayarlanması istifadə olunacaq mühitdən asılıdır, tətbiqiniz şəxsi kompüterinizdə və ya istehsal (production) serverdə işlədəcəksiniz, sizə mütləq lazım olacaq ayarları proyektinizin kökündə yerləşən ``.env`` faylında tapa bilərsiniz.
 
 Sizin ``.env`` faylınız versiyanın idarə sisteminə commit olunmalı deyil, çünki hər tərtibatçı (server) öz ayarlarını qeyd edəcək mühitdən asılı olaraq. Əlavə olaraq nəzərə alın ki, təhlükəsizlik baxımından da commit etmək olmaz. ``.env`` faylında sizin gizli saxlanılası məlumatlarınız olacaq.
 
@@ -228,29 +249,80 @@ Laraveli necə istifadə edəcəyinizdən asılı olaraq sizin növbəti addıml
 
 ### Laravel The Full Stack Framework 
 
+Laravel Full Stack çərçivə kimi fəaliyət göstərə bilər. Full Stack dedikdə "Back End"dən əlavə "Front End" üçün Blade və ya İnertia.js istifadə edə bilməyinizi nəzərdə tuturuq. Full Stack Laravel çərçivəsinin ən çox istifadə edilmə yollarından biridir.
+
+Əgər siz Full Stack olaraq istifadəni planlaşdırırsınızsa, o zaman sizə dokumentasiyadan növbəti mövzuları nəzərdən keçirməyi tövsiyyə edərdim: ``routing, views`` və ya ``the Eloquent ORM``
+
+Əlavə olaraq CSS və Javascript kodlarını Laravel Mix ilə kompilyasiyanı bilmək üçün [Laravel Mix](https://laravel.com/docs/8.x/mix) [Laravel Mix Az]() haqqında oxumağı da məsləhət görürük.
+
+> Bir başa tətbiqinizi qurmağa başlamaq istəyirsinizsə [application starter kits]() [Başlanğıc dəstlərinə]()
+
+
 ### Laravel The API Backend
 
+Laravel həmçinin API xidməti kimi, JavaScript bir-səhifəlik tətbiqlər üçün və ya mobil tətbiqlər üçün də istifadə oluna bilər. Məsələn Laraveli [Next.js](https://nextjs.org/) tətbiqinin bəkendini qurmağa istifadə edə bilərsiniz. Bu halda Laraveli [autentifikasiya]() - ([Ingilis dilində](https://laravel.com/docs/8.x/sanctum)) və məlumatın saxlanılması və fronta geri qaytarması üçün, eyni zamanda Laravelin növbələr, e-poçtlar, bildirişlər və s. kimi xidmətlərindən istifadə oluna bilər.
 
-# Ayarlama - Configuration [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Əgər siz Laraveli API bekend kimi istifadə etmək istəyirsinizsə o zaman dokumentasiyamızdan növbəti mövzuları məsləhət görə bilərik [marşrutlaşdırma](), [Laravel Sanctum]() və [Eloquent ORM]().  [routing](https://laravel.com/docs/8.x/routing), [Laravel Sanctum](https://laravel.com/docs/8.x/sanctum) və [Eloquent ORM](https://laravel.com/docs/8.x/eloquent).
 
-## Giriş [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+> Laraveli bekend və Next.js frontend kimi istifadə edərək tətbiqinizə başlamaq istəyirsiz? Sizə Laravel Breeze təklif edirik, [API stek](https://laravel.com/docs/8.x/starter-kits#breeze-and-next) və [Next.js frontendin implementasiyası](https://github.com/laravel/breeze-next) ilə bir neçə dəqiqəyə başlaya bilərsiniz.  
 
-## Mühitin ayarlanması [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+# Ayarlama - Configuration 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Mühitin Fayl TƏhlükəsizliyi [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+  - [ ] [Giriş]() [Introduction](https://laravel.com/docs/8.x/configuration#introduction)
+  - [ ] [Mühit Ayarları]() [Environment Configuration](https://laravel.com/docs/8.x/configuration#environment-configuration)
+  - [ ] [Mühit dəyişkənlərinin ayarları]() [Environment Variable Types](https://laravel.com/docs/8.x/configuration#environment-variable-types)
+  - [ ] [Mühit dəyişkənlərinin istifadəsi]() [Retrieving Environment Configuration](https://laravel.com/docs/8.x/configuration#retrieving-environment-configuration)
+  - [ ] [Mövcud mühitin müəyyən edilməsi]() [Determining The Current Environment](https://laravel.com/docs/8.x/configuration#determining-the-current-environment)
+  - [ ] [Ayar dəyərlərinə daxil olmaq]() [Accessing Configuration Values](https://laravel.com/docs/8.x/configuration#accessing-configuration-values)
+  - [ ] [Ayarların keşlənməsi]() [Configuration Caching](https://laravel.com/docs/8.x/configuration#configuration-caching)
+  - [ ] [Sazlama rejimi]() [Debug Mode](https://laravel.com/docs/8.x/configuration#debug-mode)
+  - [ ] [Baxım rejimi]() [Maintenance Mode](https://laravel.com/docs/8.x/configuration#maintenance-mode)
 
-## Əlavə mühit faylları [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Mühitin Dəyişkənlərinin Növləri [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+## Giriş 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Retrieving Environment Configuration - Düzgün tərcüməsini hələlik dəqiq bilmirəm [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Laravel üçün bütün ayar faylları ``config`` direktivində saxlanılır. Bütün ayarlama varianları ayrı fayllardır, ona görə rahat hamısı ilə tanış ola bilərsiniz.
 
-## Mövcud mühitin müəyyən edilməsi [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Bu ayar faylları ilə siz verilənlər bazası ilə əlaqə üçün, mail server üçün və digər tarix vaxt ayalarını, enkript ayarlarını quraşdıra bilərsiniz. 
 
-## Ayar dəyərlərinə daxil olmaq [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+## Mühitin ayarlanması 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-# Direktiv strukturu [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Mühitə görə ayarların dəyərləri dəyişə bilər, fərqli ayar dəyərlərinin olması adətən yaxşı olur. Məsələn öz kompüterinizdə və istehsal (production) serverində fərqli keş ayarları istifadə etmiş ola bilərsiniz. 
 
-# Başlanğıc dəstləri [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Bunu asanlaşdırmaq üçün Laravel [DotEnv](https://github.com/vlucas/phpdotenv) PHP kitabxanasından istifadə edir. Laraveli quraşdırdıqdan sonra onun direktivinin kökündə ``.env.example`` faylı olacaq, həmin faylda əsas mühit ayarları yerləşdirilib. Laraveli quraşdıran zaman həmin fayl avtomatik ``.env`` faylı kimi kopyalanacaq.
 
-# Deployment [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Laravel'in susmaya görə ``.env`` faylı tətbiqinizin yerli və ya istehsal (production) veb serverində işləməsinə görə fərqlənə bilən bəzi ümumi ayarlar dəyərlərini ehtiva edir. Həmin ayarlar sonradan müxtəlif ayar fayllarından, ``config`` direktivində olan, env funksiyası vasitəsi ilə çağırılır və istifadə olunur.
+
+Əgər siz komandanızla tətbiq hazırlayırsınızsa, o zaman ``.env.example`` faylına mühit ayarlarınızı əlavə edə bilərsiniz ki, komanda yoldaşlarınız sizin tədbiqdə hansı ayarlar istifadə olunmalı olduğunu bilsinlər.
+
+> .env faylında olan mühit dəyişkənlərinin qiyməti server və ya sistem səviyyəsində olan mühit dəyişkəni tərəfindən dəyişdirilə bilər.
+
+## Mühitin Fayl TƏhlükəsizliyi 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+## Əlavə mühit faylları 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+## Mühitin Dəyişkənlərinin Növləri 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+## Mühit dəyişkənlərinin istifadəsi 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+## Mövcud mühitin müəyyən edilməsi 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+## Ayar dəyərlərinə daxil olmaq 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+# Direktiv strukturu 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+# Başlanğıc dəstləri 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+# Yerləşdirmə 
+[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
