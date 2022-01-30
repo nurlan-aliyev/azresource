@@ -324,6 +324,12 @@ Tətbiqinizin mühit dəyişənlərini yükləməzdən əvvəl Laravel ya ``APP_
 ## Mühit dəyişənlərinin istifadəsi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
+Tətbiqiniz sorğu qəbul etdikdə bu faylda sadalanan bütün dəyişənlər $_ENV PHP super-global-a yüklənəcək. Bununla belə, siz ayar fayllarınızdakı bu dəyişənlərdən dəyərləri əldə etmək üçün ``env`` köməkçisindən istifadə edə bilərsiniz. Əslində, Laravel ayar fayllarını nəzərdən keçirsəniz, bir çox variantın artıq bu köməkçidən istifadə etdiyini görəcəksiniz:
+
+> ```'debug' => env('APP_DEBUG', false),```
+
+``env`` funksiyasına ötürülən ikinci dəyər susmaya görə olan dəyərdir. Verilmiş açar üçün heç bir mühit dəyişəni yoxdursa, bu dəyər qaytarılacaq.
+
 ## Mövcud mühitin müəyyən edilməsi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
