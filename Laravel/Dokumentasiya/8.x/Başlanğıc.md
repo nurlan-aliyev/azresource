@@ -303,14 +303,32 @@ Laravel'in susmaya görə ``.env`` faylı tətbiqinizin yerli və ya istehsal (p
 ## Mühitin Fayl TƏhlükəsizliyi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
+Sizin ```.env``` faylınız versiyanın idarə edilmə sisteminə əlavə olunmalı deyil, çünki hər tətbiqi istifadə edən tərtibatçı/server öz mühit ayarlanmasını tələb edə bilər. Əlavə olaraq təhlükəsizlik baxımından düzgün addım sayılmır.
+
 ## Əlavə mühit faylları 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Mühitin Dəyişkənlərinin Növləri 
+Tətbiqinizin mühit dəyişənlərini yükləməzdən əvvəl Laravel ya ``APP_ENV`` mühit dəyişəninin xaricdən təmin edilib-edilmədiyini və ya ``--env`` CLI arqumentinin təyin edilib-edilmədiyini müəyyən edir. Əgər belədirsə, əgər varsa, Laravel ```.env.[APP_ENV]``` faylını yükləməyə çalışacaq. Əgər o, mövcud deyilsə, standart .env faylı yüklənəcək.
+
+## Mühitin Dəyişənlərinin Növləri 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Mühit dəyişkənlərinin istifadəsi 
+``.env`` fayllarınızdakı bütün dəyişənlər adətən sətirlər (Strings) kimi təhlil edilir, buna görə də ``env()`` funksiyasından daha geniş çeşidləri qaytarmağa imkan vermək üçün bəzi ehtiyat dəyərlər yaradılmışdır:
+
+![Laravel env növləri](https://github.com/aytiqaqash/azresource/tree/main/assets/Laravel/Dokumentasiya/8.x/Laravel_env_types.jpg)
+
+Əgər siz boşluqları daxilində boşluq olan dəyərlə mühit dəyişənini təyin etməlisinizsə, bunu dəyəri qoşa dırnaq işarəsi ilə daxil etməklə edə bilərsiniz:
+
+> ``APP_NAME``="Mənim tətbiqim"
+
+## Mühit dəyişənlərinin istifadəsi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+Tətbiqiniz sorğu qəbul etdikdə bu faylda sadalanan bütün dəyişənlər $_ENV PHP super-global-a yüklənəcək. Bununla belə, siz ayar fayllarınızdakı bu dəyişənlərdən dəyərləri əldə etmək üçün ``env`` köməkçisindən istifadə edə bilərsiniz. Əslində, Laravel ayar fayllarını nəzərdən keçirsəniz, bir çox variantın artıq bu köməkçidən istifadə etdiyini görəcəksiniz:
+
+> ```'debug' => env('APP_DEBUG', false),```
+
+``env`` funksiyasına ötürülən ikinci dəyər susmaya görə olan dəyərdir. Verilmiş açar üçün heç bir mühit dəyişəni yoxdursa, bu dəyər qaytarılacaq.
 
 ## Mövcud mühitin müəyyən edilməsi 
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
