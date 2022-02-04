@@ -450,10 +450,37 @@ görəcəksiniz:
 ``env`` funksiyasına ötürülən ikinci dəyər susmaya görə olan dəyərdir. Verilmiş açar üçün heç bir mühit dəyişəni
 yoxdursa, bu dəyər qaytarılacaq.
 
-## Mövcud mühitin müəyyən edilməsi 
+## Mövcud mühitin müəyyən edilməsi
+
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
-## Ayar dəyərlərinə daxil olmaq 
+Cari tətbiq mühiti ``.env`` faylınızdan ``APP_ENV`` dəyişəni ilə müəyyən edilir. Siz bu dəyərə ``mühit``
+metodu ``App facade`` ilə daxil ola bilərsiniz:
+>
+
+```injectablephp
+ use Illuminate\Support\Facades\App;
+ 
+ $environment = App::environment();
+```
+
+Siz həmçinin mühitin verilmiş dəyərə uyğun olub-olmadığını müəyyən etmək üçün arqumentləri mühit metoduna ötürə
+bilərsiniz. Mühit verilmiş dəyərlərdən hər hansı birinə uyğun gələrsə, metod doğru qaytaracaq:
+
+```injectablephp
+if (App::environment('local')) {
+    // The environment is local
+}
+
+if (App::environment(['local', 'staging'])) {
+    // The environment is either local OR staging...
+}
+```
+
+> Cari tətbiq mühitinin aşkarlanması server səviyyəli APP_ENV mühit dəyişənini təyin etməklə ləğv edilə bilər.
+
+## Ayar dəyərlərinə daxil olmaq
+
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 # Direktiv strukturu
