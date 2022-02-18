@@ -481,6 +481,25 @@ if (App::environment(['local', 'staging'])) {
 
 ## Ayar dəyərlərinə daxil olmaq
 
+Siz proqramınızın istənilən yerindən qlobal ``config helper``  funksiyasından istifadə edərək konfiqurasiya dəyərlərinizə asanlıqla daxil ola bilərsiniz. Konfiqurasiya dəyərlərinə faylın adını və daxil olmaq istədiyiniz seçimi daxil edən "dot" sintaksisindən istifadə etməklə əldə edilə bilər. Susmaya görə dəyər də göstərilə bilər və konfiqurasiya seçimi mövcud olmadıqda həmin dəyər qaytarılacaq:
+
+```
+
+$value = config('app.timezone');
+
+// Retrieve a default value if the configuration value does not exist...
+$value = config('app.timezone', 'Asia/Seoul');
+
+```
+
+Tətbiqin çalışdığı zaman "config helper"ə dəyər ötürmək üçün istifadə edin:
+
+```
+
+config(['app.timezone' => 'America/Chicago']);
+
+```
+
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
 
 # Direktiv strukturu
