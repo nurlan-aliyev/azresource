@@ -499,12 +499,48 @@ Tətbiqin çalışdığı zaman "config helper"ə dəyər ötürmək üçün ist
 config(['app.timezone' => 'America/Chicago']);
 
 ```
+## Konfiqurasiyanın Keşlənməsi
 
-[ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+Tətbiqinizi sürətləndirmək üçün siz bütün konfiqurasiya fayllarınızı ``config:cache`` Artisan əmrindən istifadə edərək bir faylda saxlamalısınız. Bu, tətbiqiniz üçün bütün konfiqurasiya seçimlərini çərçivə tərəfindən tez yüklənə bilən tək bir faylda birləşdirəcəkdir.
+
+Siz adətən istehsal(production) yerləşdirmə prosesinin bir hissəsi kimi php artisan ``config:cache`` əmrini işlətməlisiniz. Tətbiqinizin inkişafı zamanı konfiqurasiya seçimlərinin tez-tez dəyişdirilməsi tələb olunduğundan komanda yerli inkişaf zamanı işə salınmamalıdır.
+
+> Əgər siz deployment prosesi zamanı ``config:cache`` əmrini yerinə yetirirsinizsə, əmin olmalısınız ki, siz yalnız konfiqurasiya fayllarınızdan env funksiyasını çağırırsınız. Konfiqurasiya keşləndikdən sonra .env faylı yüklənməyəcək; buna görə də, env funksiyası yalnız xarici, sistem səviyyəli mühit dəyişənlərini qaytaracaq.
 
 # Direktiv strukturu
 
+``config/app.php`` konfiqurasiya faylınızdakı debug seçimi istifadəçiyə xəta haqqında əslində nə qədər məlumatın göstərildiyini müəyyən edir. Susmaya görə, bu seçim .env faylınızda saxlanılan APP_DEBUG mühit dəyişəninin dəyərinə hörmət etmək üçün qurulub.
+
+Local mühitdə tətbiq etmək üçün gərək APP_DEBUG dəyişənin dəyərini true qoyasınız. Prodakşnda (production) dəyəri daima failse olmağı tövsiyyə olunur. Əgər prodakşnda dəyərini true qoysanız, ayarların məxfi məlumatlarını istifadəçilərə göstərmiş ola bilərsiniz.  
+
+# Maintenance mode - Texniki qulluq rejimi (Müvəqqəti narahatlıq rejimi) 
+
+Tətbiqiniz texniki xidmət rejimində olduqda, tətbiqinizə daxil olan bütün sorğular üçün fərdi görünüş göstərilir. Bu, tətbiqinizi yeniləyərkən və ya texniki xidmət göstərərkən tətbiqinizi "deaktiv etməyi" asanlaşdırır. Texniki qulluq rejimi yoxlanışı tətbiqiniz üçün standart ara proqram yığınına daxil edilmişdir. Tətbiq texniki qulluq rejimindədirsə, Symfony\Component\HttpKernel\Exception\HttpException nümunəsi 503 status kodu ilə atılacaq.
+
+To enable maintenance mode, execute the ``down`` Artisan command:
+
+```
+php artisan down
+```
+
+Refresh HTTP başlığını bütün texniki qulluq cavabları ilə, ``down`` əmrindən istifadə edərkən refresh seçimi ilə göndərilə bilər. Refresh header brauzerdə səhifənin müəyyən saniyədən bir yenilənməsini təmin edəcək.
+
+```
+php artisan down --refresh=15
+```
+
+``down`` əmrinə ``retry`` seçimini də əlavə etmək olar ``Retry-After`` HTTP başlığının dəyəri kimi təyin olacaq, brauzerlər bu dəyərə fikir verməsə belə.
+
+```
+php artisan down --retry=60
+```
+
+## Bypassing Maintenance Mode 
+
 [ :point_up_2: ](https://github.com/aytiqaqash/azresource/blob/main/Laravel/Dokumentasiya/8.x/Ba%C5%9Flan%C4%9F%C4%B1c.md#i%CC%87nstalyasiya)
+
+
+
 
 # Başlanğıc dəstləri
 
