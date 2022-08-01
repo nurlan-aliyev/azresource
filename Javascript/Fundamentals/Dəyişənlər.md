@@ -18,6 +18,7 @@ let message;
 İndi isə biz artıq bu dəyişənə məlumat yerləşdirə bilərik. Bunu etmək üçün =  operatorunu istifadə edirik.
 
 let message; 
+
 message = "Salam Dünya"
 
 Artıq biz bir dəyişən yaratdıq və ona biz məlumat yerləşdirdik. Bundan sonra həmin məlumatı istifadə etmək istəsək sadəcə message yazmağımız kifayət olacaq.
@@ -44,6 +45,7 @@ JavaScript dilində dəyişənlər yaratarkən bəzi məhdudiyyətlər var.
 
 Məsələn bu formada dəyişənlər yarada bilərsiniz:
 let userName;
+
 let test123;
 
 Əgər dəyişənin adında birdən çox sözdən istifadə olunursa, birinci sözün birinci hərfi hər kiçik hərflə yazılır onda sonrakı sözlərin birinci hərfi isə böyük hərflə yazılır.
@@ -55,7 +57,9 @@ Bu adlandırma üsulu CamelCase deyilir
 '$' işarəsi və '_' işarəsi də dəyişənlərin adında istifadə edilə bilər. Onların hər hansı bir fərqli mənası yoxdur. Yəni aşağıdakı formalarda dəyişən təyin edə bilərsiniz.
 
 let $ = 5;
+
 let _ = true
+
 let $test = 15;
 
 Həmçinin qeyd etmək lazımdır ki, dəyişən adları rəqəm ilə başlaya bilməz və qeyd etdiyimiz iki işarədən başqa simvolları istifadə etmək olmaz.
@@ -71,6 +75,7 @@ Const ilə təyin olunan dəyişənlər "sabitlər" kimi müəyyən edilir. Onla
 Əgər mən bu const ilə təyin etdiyimiz name adlı dəyişəni dəyişmək istəsək, xəta baş verəcək
 
 name = "User"; // xəta, sabitin dəyəri dəyişdirilə bilməz!
+
 const name = 'User'; // xəta, sabitin dəyəri dəyişdirilə bilməz!
 
 
